@@ -7,6 +7,7 @@ html {
     height: 100%;
 }
 
+
 body {
     padding:0;
     margin:0;
@@ -14,10 +15,56 @@ body {
     width: 100%;
     height: 100%;
     color: #3E3F3A;
+    }
+
+/* ------------------------------------------------- SCROLLBAR STYLE */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.container{
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
 }
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3e3f3a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*--------------------------------------------------- SOCIAL SIDE LINKS */
+.social-fixed-side {
+    position: fixed;
+    right: 0;
+    top: 50vh;
+    z-index: 1;
+}
+
+.social-item {                      /*also used on footer*/
+    font-size: 2rem;
+    height: 35px;
+    
+}
+
+.social-link {
+    color: #3e3f3a;
+}
+
+.social-link:hover {
+    color: #797062;
+}
+
+
+.downlink {
+    width: 100%;
+}
+/* ------------------------------------------------------- LANDING */
 .landing-bg {
     background: url("../images/unsplash.jpg") no-repeat center center fixed; 
     background-size: cover;
@@ -36,19 +83,19 @@ body {
 }
 
 .more-btn {
-    position: absolute;
-    bottom: -150px;
     font-size:1.5rem;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -125px;
     color: #eeebe8;
     text-shadow: 0.1em 0.1em 0.1em #3E3F3A, 
                  0 0 0.1em #3E3F3A,
                  0 0 0.1em #3E3F3A,
                  0 0 0.2em #3E3F3A,
                  0 0 0.2em #3E3F3A,
-                 0 0 0.3em #3E3F3A
+                 0 0 0.3em #3E3F3A;
+    position:absolute;
+    top:85vh;
+    transform:translateY(-100%);
+    width:100%;
+    z-index: 1;
 }
 
 .more-btn:hover {
@@ -56,26 +103,6 @@ body {
     color: #eeebe8;
 }
 
-
-.social-fixed-side {
-    position: fixed;
-    right: 0;
-    top: 50vh;
-    z-index: 1;
-}
-
-.social-side-item {
-    font-size: 2rem;
-    height: 35px;
-    
-}
-
-.social-link {
-    color: #3e3f3a;
-}
-.social-link:hover {
-    color: #797062;
-}
 
 .btn-success {
     color: #3E3F3A;
@@ -96,15 +123,14 @@ body {
     border-radius: 25px;
 
 }
+
 .nav-link:hover,
 .message-btn:hover {
     color: #eeebe8;
 }
 
-
-
+/* ----------------------------------------------- ABOUT ME */
 .about-me {
-    height: 80vh;
     padding: 150px;
     background-color:#cec2b9;
     background-image: url(../images/corrado.png);
@@ -112,23 +138,27 @@ body {
     background-position: bottom right;
 }
 
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
+.footer-bg {
+    background-color:#3E3F3A;
+    color: #eeebe8;
+    padding: 20px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+footer .social-link {
+    color: #eeebe8;
+    position: relative;
+    bottom: 20px;
 }
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #3e3f3a; 
+.footer-heading {
+    margin-top: 15px;
+}
+.footer-content {
+    padding: 10px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+.footer-content li {
+    list-style-type: none;
+}
+.footer-content ul {
+    padding-left: 0px;
 }
