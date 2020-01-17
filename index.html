@@ -33,7 +33,8 @@
 				class="hvr-push social-link"><i class="fas fa-file-download"></i></a>
 		</div>
 		<div class="social-item">
-			<a href="" class="hvr-push social-link"><i class="fas fa-envelope-square"></i></a>
+			<a class="hvr-push social-link" data-toggle="modal"
+				data-target="#staticBackdrop"><i class="fas fa-envelope-square"></i></a>
 		</div>
 
 	</div>
@@ -41,193 +42,305 @@
 		<a href="#about-me" class="text-center more-btn hvr-icon-down">Want To Know More?? <br>
 			<i class="fas fa-arrow-circle-down hvr-icon"></i></a>
 	</div>
-	<div class="landing-bg">
-		<div class="container">
-			<nav class="navbar navbar-light navbar-expand-sm">
-				<a href="/" class="navbar-brand text-wrap">Tom Jones | Full Stack Software Developer</a>
 
-
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ml-auto text-center">
-						<li class="nav-item mr-2">
-							<a class="nav-link" href="/">Portfolio</a>
-						</li>
-						<li class="nav-item mr-2">
-							<a class="nav-link" href="assets/documents/cv.pdf" target="_blank">CV</a>
-						</li>
-						<li class="nav-item mr-2">
-							<span class="message-btn"><a class="nav-link1 btn btn-success" href="">Say Hi! <i class="far fa-paper-plane"></i></a></span>
-						</li>
-					</ul>
+	<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+		aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Get In Touch!!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
 				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
 
-				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+						<form id="contact-form" class="contact-form" method="post" action="contact-2.php" role="form">
+							<div class="messages"></div>
+							<div class="controls">
+								<div class="row no-gutters">
+									<div class="col-sm-12 col-md-6">
+										<div class="form-group input-wrap">
+											<label class="label-name" for="form_name">First Name*</label>
+											<input id="form_name" type="text" name="name" class="input form-control" required="required" data-error="Firstname is required.">
+											<div class="help-block with-errors"></div>
+											<span class="focus-input"></span>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<div class="form-group input-wrap">
+											<label class="label-name" for="form_lastname">Last Name*</label>
+											<input id="form_lastname" type="text" name="surname" class="input form-control" required="required" data-error="Lastname is required.">
+											<div class="help-block with-errors"></div>
+											<span class="focus-input"></span>
+										</div>
+									</div>
+								</div>
+								<div class="row no-gutters">
+									<div class="col-sm-12 col-md-6">
+										<div class="form-group input-wrap">
+											<label class="label-name" for="form_email">Email*</label>
+											<input id="form_email" type="email" name="email" class="input form-control" required="required" data-error="Valid email is required.">
+											<div class="help-block with-errors"></div>
+											<span class="focus-input"></span>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<div class="form-group input-wrap">
+											<label class="label-name" for="form_phone">Phone</label>
+											<input id="form_phone" type="tel" name="phone" class="input form-control">
+											<div class="help-block with-errors"></div>
+											<span class="focus-input"></span>
+										</div>
+									</div>
+								</div>
+								<div class="row no-gutters">
+									<div class="col">
+										<div class="form-group input-wrap">
+											<label class="label-name" for="form_message">Message*</label>
+											<textarea id="form_message" name="message" class="input form-control" placeholder="Leave me a quick message and i will try get back as quick as possible*" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+											<span class="focus-input"></span>
+											<div class="help-block with-errors"></div>
+
+										</div>
+									</div>
+									<div class="col-md-12">
+										<input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+									</div>
+									<div class="row no-gutters">
+										<div class="col-md-12">
+											<p class="text-muted"><strong>*</strong> These fields are required.</p>
+										</div>
+									</div>
+								</div>
+						</form>
+
+
+
+						<div class="row">
+							<div class="col-6">
+								<h5> Location <i class="fas fa-map-marker-alt"></i> </h5>
+
+								<hr>
+								<div class="">
+									<address> 21 Holtye Crescent <br> Maidstone <br> Kent, UK <br> ME15 7DB </address>
+								</div>
+							</div>
+							<div class="col-6">
+								<h5> Contact Details <i class="fas fa-address-card"></i> </h5>
+
+								<hr>
+								<div class="">
+									<address> 21 Holtye Crescent <br> Maidstone <br> Kent, UK <br> ME15 7DB </address>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="landing-bg">
+			<div class="container">
+				<nav class="navbar navbar-light navbar-expand-sm">
+					<a href="/" class="navbar-brand text-wrap">Tom Jones | Full Stack Software Developer</a>
+
+
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav ml-auto text-center">
+							<li class="nav-item mr-2">
+								<a class="nav-link" href="/">Portfolio</a>
+							</li>
+							<li class="nav-item mr-2">
+								<a class="nav-link" href="assets/documents/cv.pdf" target="_blank">CV</a>
+							</li>
+							<li class="nav-item mr-2">
+								<span class="message-btn"><a class="nav-link1 btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Say Hi! <i class="far fa-paper-plane"></i></a></span>
+							</li>
+						</ul>
+					</div>
+
+					<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-			</nav>
-		</div>
+				</nav>
+			</div>
 
-		<section class="text-center landing-body">
-			<div class="container">
+			<section class="text-center landing-body">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h1 class="">Tom Jones</h1>
+							<h2 class="">Passionate About Creating Efficent Code And Functional Design.</h2>
+							<h3>UK Based Junior Full Stack Software Developer.</h3>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<img class="headshot" src="https://i.pinimg.com/236x/09/b6/d2/09b6d243fb90b72b6f2a40fba4c303d1--tom-jones-amazing-people.jpg" alt="face!!">
+			</div>
+			</section>
+
+
+
+			<section id="about-me" class="about-me container text-center">
 				<div class="row">
 					<div class="col">
-						<h1 class="">Tom Jones</h1>
-						<h2 class="">Passionate About Creating Efficent Code And Functional Design.</h2>
-						<h3>UK Based Junior Full Stack Software Developer.</h3>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<img class="headshot" src="https://i.pinimg.com/236x/09/b6/d2/09b6d243fb90b72b6f2a40fba4c303d1--tom-jones-amazing-people.jpg" alt="face!!">
-			</div>
-		</section>
-
-
-
-		<section id="about-me" class="about-me container text-center">
-			<div class="row">
-				<div class="col">
-					<h1 class="">Welcome, My Name Is Tom.</h1>
-					<p class="">I am a career changing coder! I am currently taking a
-						Level 5 Diploma in Software Development with the Code Institute! I pride
-						myself on clean and elegant code which helps me keep focused on creating a user-friendly
-						experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
-						myself with every task. I'm orignally from the Courier Industry where i have spent the last 11
-						years.
-						My most recent role was Operations Supervisor where I took control of 20+ Drivers and 1500
-						parcels
-						daily.
-						<br>
+						<h1 class="">Welcome, My Name Is Tom.</h1>
+						<p class="">I am a career changing coder! I am currently taking a
+							Level 5 Diploma in Software Development with the Code Institute! I pride
+							myself on clean and elegant code which helps me keep focused on creating a user-friendly
+							experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
+							myself with every task. I'm orignally from the Courier Industry where i have spent the
+							last 11
+							years.
+							My most recent role was Operations Supervisor where I took control of 20+ Drivers and
+							1500
+							parcels
+							daily.
+							<br>
             I like to take hard earned breaks with long country walks, traveling and repairing my classic Volkswagen!
                     </p>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section class="container-fluid text-center">
-			<div class="row">
-				<div class="col-6">
-					<h1 class="">Welcome, My Name Is Tom.</h1>
-					<p class="">I am a career changing coder! I am currently taking a
-						Level 5 Diploma in Software Development with the Code Institute! I pride
-						myself on clean and elegant code which helps me keep focused on creating a user-friendly
-						experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
-						myself with every task. I'm orignally from the Courier Industry where i have spent the last 11
-						years.
-						My most recent role was Operations Supervisor where I took control of 20+ Drivers and 1500
-						parcels
-						daily.
-						<br>
+			<section class="container-fluid text-center">
+				<div class="row">
+					<div class="col-6">
+						<h1 class="">Welcome, My Name Is Tom.</h1>
+						<p class="">I am a career changing coder! I am currently taking a
+							Level 5 Diploma in Software Development with the Code Institute! I pride
+							myself on clean and elegant code which helps me keep focused on creating a user-friendly
+							experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
+							myself with every task. I'm orignally from the Courier Industry where i have spent the
+							last 11
+							years.
+							My most recent role was Operations Supervisor where I took control of 20+ Drivers and
+							1500
+							parcels
+							daily.
+							<br>
                     I like to take hard earned breaks with long country walks, traveling and repairing my classic Volkswagen!
                     </p>
-				</div>
-				<div class="col-6">
-					<h1 class="">Welcome, My Name Is Tom.</h1>
-					<p class="">I am a career changing coder! I am currently taking a
-						Level 5 Diploma in Software Development with the Code Institute! I pride
-						myself on clean and elegant code which helps me keep focused on creating a user-friendly
-						experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
-						myself with every task. I'm orignally from the Courier Industry where i have spent the last 11
-						years.
-						My most recent role was Operations Supervisor where I took control of 20+ Drivers and 1500
-						parcels
-						daily.
-						<br>
+					</div>
+					<div class="col-6">
+						<h1 class="">Welcome, My Name Is Tom.</h1>
+						<p class="">I am a career changing coder! I am currently taking a
+							Level 5 Diploma in Software Development with the Code Institute! I pride
+							myself on clean and elegant code which helps me keep focused on creating a user-friendly
+							experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
+							myself with every task. I'm orignally from the Courier Industry where i have spent the
+							last 11
+							years.
+							My most recent role was Operations Supervisor where I took control of 20+ Drivers and
+							1500
+							parcels
+							daily.
+							<br>
                     I like to take hard earned breaks with long country walks, traveling and repairing my classic Volkswagen!
                     </p>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-	</div>
-	<footer class="footer-bg text-center">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="footer-heading">
-						<h5> Location <i class="fas fa-map-marker-alt"></i> </h5>
-					</div>
-					<hr>
-					<div class="footer-content">
-						<h6> 21 Holtye Crescent </h6>
-						<h6> Maidstone </h6>
-						<h6> Kent, UK </h6>
-						<h6> ME15 7DB </h6>
-					</div>
-					<div class="footer-heading">
-						<h5>Download CV</h5>
-					</div>
-					<hr>
-					<div class="footer-content">
-						<h6>Need a hard copy of my CV download it here
-							<a href="assets/documents/cv.pdf" download>
-								<i class="fas fa-file-download"></i></a>
-						</h6>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="footer-heading">
-						<h5>Contact <i class="far fa-address-card"></i></h5>
-					</div>
-					<hr>
-					<div class="footer-content">
-						<h6><i class="fas fa-phone"></i> 07449 670 750</h6>
-						<h6><i class="fas fa-at"></i> kushberrycream@hotmail.com</h6>
-					</div>
-					<br>
-					<div class="footer-heading">
-						<h5>Social <i class="fas fa-user-circle"></i></h5>
-					</div>
-					<hr>
-					<div class="footer-content social-item">
-						<a href="" class="hvr-push social-link"><i class="fab fa-facebook-square"></i></a>
-						<a href="" class="hvr-push social-link"><i class="fab fa-linkedin"></i></a>
-						<a href="" class="hvr-push social-link"><i class="fab fa-github-square"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="footer-heading">
-						<h5>Navigation <i class="fas fa-bars"></i></h5>
-					</div>
-					<hr>
-					<div class="footer-content">
-						<ul class="">
-							<li class="">
-								<a href="index.html" class="">Home</a>
-							</li>
-							<li class="">
-								<a href="#about-me" class="">About Me</a>
-							</li>
-							<li class="">
-								<a href="" class="">Portfolio</a>
-							</li>
-						</ul>
-					</div>
-                    <div class="footer-content">
-                        <br>
-				        <a class="btn btn-primary" href="">Send Me A Message! <i class="far fa-paper-plane"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col text-center">
-					<p>Created by Me! &copy; 2020, Tom Jones, All Rights Reserved.</p>
-				</div>
-			</div>
 		</div>
-	</footer>
+		<footer class="footer-bg text-center">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-heading">
+							<h5> Location <i class="fas fa-map-marker-alt"></i> </h5>
+						</div>
+						<hr>
+						<div class="footer-content">
+							<h6> 21 Holtye Crescent </h6>
+							<h6> Maidstone </h6>
+							<h6> Kent, UK </h6>
+							<h6> ME15 7DB </h6>
+						</div>
+						<div class="footer-heading">
+							<h5>Download CV</h5>
+						</div>
+						<hr>
+						<div class="footer-content">
+							<h6>Need a hard copy of my CV download it here
+								<a href="assets/documents/cv.pdf" download>
+									<i class="fas fa-file-download"></i></a>
+							</h6>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-heading">
+							<h5>Contact <i class="far fa-address-card"></i></h5>
+						</div>
+						<hr>
+						<div class="footer-content">
+							<h6><i class="fas fa-phone"></i> 07449 670 750</h6>
+							<h6><i class="fas fa-at"></i> kushberrycream@hotmail.com</h6>
+						</div>
+						<br>
+						<div class="footer-heading">
+							<h5>Social <i class="fas fa-user-circle"></i></h5>
+						</div>
+						<hr>
+						<div class="footer-content social-item">
+							<a href="" class="hvr-push social-link"><i class="fab fa-facebook-square"></i></a>
+							<a href="" class="hvr-push social-link"><i class="fab fa-linkedin"></i></a>
+							<a href="" class="hvr-push social-link"><i class="fab fa-github-square"></i></a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-heading">
+							<h5>Navigation <i class="fas fa-bars"></i></h5>
+						</div>
+						<hr>
+						<div class="footer-content">
+							<ul class="">
+								<li class="">
+									<a href="index.html" class="">Home</a>
+								</li>
+								<li class="">
+									<a href="#about-me" class="">About Me</a>
+								</li>
+								<li class="">
+									<a href="" class="">Portfolio</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-content">
+							<br>
+							<a class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Send Me A
+								Message!
+								<i class="far fa-paper-plane"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col text-center">
+						<p>Created by Me! &copy; 2020, Tom Jones, All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
 
 </body>
 
