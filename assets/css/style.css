@@ -64,18 +64,26 @@ body {
 .downlink {
     width: 100%;
 }
+
+/*-------------------------------------------------------- NAVBAR */
+
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+}
 /* ------------------------------------------------------- LANDING */
 .landing-bg {
     background: url("../images/unsplash.jpg") no-repeat center center fixed; 
     background-size: cover;
     position: relative;
-    height: 100vh;
+    
 }
 
 .landing-body {
     flex-grow: 1;
     flex-shrink: 0;
     padding: 4rem 1.5rem;
+    height: 100vh;
 }
 
 .headshot {
@@ -136,16 +144,28 @@ body {
     background-image: url(../images/corrado.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    border-radius: 50px;
 }
+
+
+/* ------------------------------------------------ SKILLS / EXPERIENCE */
+
+
+
+
+
+
+
+/* ------------------------------------------------ FOOTER */
 
 .footer-bg {
     background-color:#3E3F3A;
-    color: #eeebe8;
+    color: #797062;
     padding: 20px;
 }
 
 footer .social-link {
-    color: #eeebe8;
+    color: #797062;
     position: relative;
     bottom: 20px;
 }
@@ -159,6 +179,14 @@ footer .social-link {
 .footer-content li {
     list-style-type: none;
 }
+
+.footer-content li a {
+    color: #797062;
+}
 .footer-content ul {
     padding-left: 0px;
+}
+
+footer h6 a i {
+    color: #797062;
 }
