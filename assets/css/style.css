@@ -17,6 +17,13 @@ body {
     color: #3E3F3A;
     }
 
+.background {
+    background: url("../images/unsplash.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    position: relative;
+    
+}
+
 /* ------------------------------------------------- SCROLLBAR STYLE */
 /* width */
 ::-webkit-scrollbar {
@@ -85,15 +92,18 @@ body {
 
 .modal-body {
     padding: 0;
+    overflow: auto;
 }
 .modal-dialog {
     margin: 0;
-    border-radius: 0;
+    max-height:100%;
     max-width:100vw;
 }
 
 .modal-content {
     height:100vh;
+    border-radius: 0;
+    background-color: #eeebe8;
 }
 
 /* ------------------------------------------------------------- Contact us */
@@ -151,12 +161,7 @@ label {
 }
 
 /* ------------------------------------------------------- LANDING */
-.landing-bg {
-    background: url("../images/unsplash.jpg") no-repeat center center fixed; 
-    background-size: cover;
-    position: relative;
-    
-}
+
 
 .landing-body {
     flex-grow: 1;
@@ -345,4 +350,41 @@ footer h6 a i {
     border-color: #3E3F3A;
     border-width: 3px;
 
+}
+
+
+/* ----------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
+
+
+@media (min-width: 2000px) {
+    .container {
+        max-width: 1500px;
+    }
+    .social-item {
+        padding-top: 50px;
+        font-size:3rem;
+    }
+    .navbar-brand,
+    .nav-link,
+    .nav-link1 { 
+        font-size: x-large;
+    }
+    .landing-body {
+        padding: 400px;
+    }
+    .landing-body h1 {
+        font-size:3rem;
+    }
+    .landing-body h2 {
+        font-size: 2.5rem;
+    }
+    .landing-body h3 {
+        font-size: 2rem;
+    }
+    .headshot {
+        
+    }
+    .more-btn{
+        font-size: 2rem;
+    }
 }
