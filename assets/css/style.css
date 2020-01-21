@@ -378,14 +378,5 @@ footer h6 a i {
     .headshot {
         height: 250px;
     }
-    .background {
-    background: url("../images/unsplash.jpg");
-    background-size: 1000px 100vh, cover;
-    background-position: center center;
-    overflow: hidden;
-    }
-    .more-btn {
-        top: 68vh;
-    }
 }
 
