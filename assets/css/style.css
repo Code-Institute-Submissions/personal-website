@@ -360,6 +360,7 @@ footer h6 a i {
 @media (max-width: 576px) {
     .landing-body {
         padding-top:20px;
+        height:80vh;
     }
     .landing-body h1 {
         font-size: 2rem;
