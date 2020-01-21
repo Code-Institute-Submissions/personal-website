@@ -377,7 +377,7 @@ footer h6 a i {
     }
     .background {
     background: url("../images/unsplash.jpg") no-repeat center center fixed; 
-    background-size: 1500px, cover;
+    background-size: 600px, cover;
     position: relative;
     
 }
