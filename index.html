@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
+	<link rel="stylesheet" href="assets/css/circle.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css">
 	<script src="https://kit.fontawesome.com/8c483914fb.js" crossorigin="anonymous"></script>
@@ -18,30 +18,31 @@
 </head>
 
 <body>
+	<!--------------------------------------------------------------------------------------SOCIAL SIDE BAR ----------------------------------------------------->
 	<div class="social-fixed-side">
 		<div class="social-item">
-			<a href="https://en-gb.facebook.com/" class="hvr-push social-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://en-gb.facebook.com/" class="hvr-push social-link"
+				target="_blank"><i class="fab fa-facebook-square"></i></a>
 		</div>
 		<div class="social-item">
-			<a href="https://www.linkedin.com/in/tomjoneswebdev/" class="hvr-push social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="https://www.linkedin.com/in/tomjoneswebdev/" class="hvr-push social-link"
+				target="_blank"><i class="fab fa-linkedin"></i></a>
 		</div>
 		<div class="social-item">
-			<a href="https://github.com/kushberrycream" class="hvr-push social-link" target="_blank"><i class="fab fa-github-square"></i></a>
+			<a href="https://github.com/kushberrycream" class="hvr-push social-link"
+				target="_blank"><i class="fab fa-github-square"></i></a>
 		</div>
 		<div class="social-item">
-			<a href="assets/documents/cv.pdf" target="_blank" class="hvr-push social-link"><i class="fas fa-file-download"></i></a>
+			<a href="assets/documents/cv.pdf" target="_blank"
+				class="hvr-push social-link"><i class="fas fa-file-download"></i></a>
 		</div>
 		<div class="social-item">
-			<a href="contact.html" class="hvr-push social-link" data-toggle="modal"
-				data-target="#staticBackdrop" data-remote="false"><i class="fas fa-envelope-square"></i></a>
+			<a href="contact.html" class="hvr-push social-link" data-toggle="modal" data-target="#staticBackdrop"
+				data-remote="false"><i class="fas fa-envelope-square"></i></a>
 		</div>
 
 	</div>
-	<div class="downlink">
-		<a href="#about-me" class="text-center more-btn hvr-icon-down">Want To Know More?? <br>
-			<i class="fas fa-arrow-circle-down hvr-icon"></i></a>
-	</div>
-
+	<!----------------------------------------------------------------------------------------MODAL FORM----------------------------------------------------------->
 	<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
 		aria-labelledby="staticBackdropLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
@@ -55,42 +56,41 @@
 				<div class="modal-body">
 					<div class="container-fluid">
 
-						<form id="contact-form" class="contact-form" method="post" action="contact-2.php" role="form">
-							<div class="messages"></div>
+						<form class="contact-form"
+							action="mailto:kushberrycream@hotmail.com?subject=Portfolio Contact Form" method="post"
+							enctype="text/plain">
 							<div class="controls">
 								<div class="row no-gutters">
+
+
 									<div class="col-sm-12 col-md-6">
 										<div class="form-group input-wrap">
-											<label class="label-name has-float-label" for="form_name">First Name*</label>
-											<input id="form_name" type="text" name="name" class="input form-control" required="required" data-error="Firstname is required.">
+											<label class="label-name has-float-label" for="name">First Name*</label>
+											<input id="name" type="text" name="name" class="input form-control" required="required" data-error="Firstname is required.">
 											<div class="help-block with-errors"></div>
-											<span class="focus-input"></span>
 										</div>
 									</div>
 									<div class="col-sm-12 col-md-6">
 										<div class="form-group input-wrap">
-											<label class="label-name" for="form_lastname">Last Name*</label>
-											<input id="form_lastname" type="text" name="surname" class="input form-control" required="required" data-error="Lastname is required.">
+											<label class="label-name" for="lastname">Last Name*</label>
+											<input id="lastname" type="text" name="surname" class="input form-control" required="required" data-error="Lastname is required.">
 											<div class="help-block with-errors"></div>
-											<span class="focus-input"></span>
 										</div>
 									</div>
 								</div>
 								<div class="row no-gutters">
 									<div class="col-sm-12 col-md-6">
 										<div class="form-group input-wrap">
-											<label class="label-name" for="form_email">Email*</label>
-											<input id="form_email" type="email" name="email" class="input form-control" required="required" data-error="Valid email is required.">
+											<label class="label-name" for="email">Email*</label>
+											<input id="email" type="email" name="email" class="input form-control" required="required" data-error="Valid email is required.">
 											<div class="help-block with-errors"></div>
-											<span class="focus-input"></span>
 										</div>
 									</div>
 									<div class="col-sm-12 col-md-6">
 										<div class="form-group input-wrap">
-											<label class="label-name" for="form_phone">Phone</label>
-											<input id="form_phone" type="tel" name="phone" class="input form-control">
+											<label class="label-name" for="phone">Phone</label>
+											<input id="phone" type="tel" name="phone" class="input form-control">
 											<div class="help-block with-errors"></div>
-											<span class="focus-input"></span>
 										</div>
 									</div>
 								</div>
@@ -98,12 +98,13 @@
 									<div class="col">
 										<div class="form-group input-wrap">
 											<label class="label-name" for="form_message">Message*</label>
-											<textarea id="form_message" name="message" class="input form-control" placeholder="Leave me a quick message and i will try get back as quick as possible*" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+											<textarea id="message" name="message" class="input form-control" placeholder="Leave me a quick message and i will try get back as quick as possible*" rows="4" required="required" data-error="Please, leave us a message."></textarea>
 											<span class="focus-input"></span>
 											<div class="help-block with-errors"></div>
-
 										</div>
 									</div>
+
+
 									<div class="col-md-12">
 										<input type="submit" class="btn btn-success btn-send" value="Send message">
                                 </div>
@@ -143,6 +144,12 @@
 			</div>
 		</div>
 	</div>
+	<!------------------------------------------------------------------------------------------MORE BUTTON ------------------------------------------------------->
+	<div class="downlink">
+		<a href="#about-me" class="text-center more-btn hvr-icon-down">Want To Know More?? <br>
+			<i class="fas fa-arrow-circle-down hvr-icon"></i></a>
+	</div>
+	<!------------------------------------------------------------------------------------------ MAIN CONTENT ------------------------------------------------------>
 	<div class="background">
 		<div class="container">
 			<nav class="navbar navbar-light navbar-expand-sm">
@@ -179,17 +186,14 @@
 						<h2 class="">Passionate About Creating Efficent Code And Functional Design.</h2>
 						<h3>UK Based Junior Full Stack Software Developer.</h3>
 					</div>
-				
-                </div>
+
+				</div>
 			</div>
 
 			<div class="container">
-				<img class="headshot" src="https://i.pinimg.com/236x/09/b6/d2/09b6d243fb90b72b6f2a40fba4c303d1--tom-jones-amazing-people.jpg" alt="face!!">
+				<img class="headshot" src="https://i.pinimg.com/236x/09/b6/d2/09b6d243fb90b72b6f2a40fba4c303d1--tom-jones-amazing-people.jpg" alt="face">
 			</div>
 		</section>
-
-
-
 		<section id="about-me" class="about-me container text-center">
 			<div class="row">
 				<div class="col">
@@ -212,48 +216,91 @@
 			</div>
 		</section>
 
-		<section class="container-fluid text-center">
+		<section class="container text-center experience-bg">
 			<div class="row">
 				<div class="col-md-6">
-					<h1 class="">Welcome, My Name Is Tom.</h1>
-					<p class="">I am a career changing coder! I am currently taking a
-						Level 5 Diploma in Software Development with the Code Institute! I pride
-						myself on clean and elegant code which helps me keep focused on creating a user-friendly
-						experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
-						myself with every task. I'm orignally from the Courier Industry where i have spent the
-						last 11
-						years.
-						My most recent role was Operations Supervisor where I took control of 20+ Drivers and
-						1500
-						parcels
-						daily.
-						<br>
-                    I like to take hard earned breaks with long country walks, traveling and repairing my classic Volkswagen!
-                    </p>
+					<div class="row">
+						<h1 class="">Experience</h1>
+					</div>
 				</div>
 				<div class="col-md-6">
-					<h1 class="">Welcome, My Name Is Tom.</h1>
-					<p class="">I am a career changing coder! I am currently taking a
-						Level 5 Diploma in Software Development with the Code Institute! I pride
-						myself on clean and elegant code which helps me keep focused on creating a user-friendly
-						experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon
-						myself with every task. I'm orignally from the Courier Industry where i have spent the
-						last 11
-						years.
-						My most recent role was Operations Supervisor where I took control of 20+ Drivers and
-						1500
-						parcels
-						daily.
-						<br>
-                    I like to take hard earned breaks with long country walks, traveling and repairing my classic Volkswagen!
-                    </p>
+					<h1 class="">Skills</h1>
+
 				</div>
 			</div>
 		</section>
 
+		<section class="skills-bg">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-4">
+						<h1 class="">Skills</h1>
+					</div>
+					<div class="col-md-8"></div>
+				</div>
+				<div class="row no-gutters text-center">
+					<div class="col-6 col-md-2">
+						<div class="c100 p95 center">
+							<span>HTML</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6  col-md-3">
+						<div class="c100 p95 center green">
+							<span>CSS</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md-2">
+						<div class="c100 p80 center red">
+							<span>Js</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<p><em>Javascript / JQuery</em></p>
+					</div>
+					<div class="col-6 col-md-3">
+						<div class="c100 p50 center yellow">
+							<span>Python</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<p><em>Python / Django</em></p>
+					</div>
+
+
+					<div class="col-sm-12 col-md-2">
+						<div class="c100 p35 center purple">
+							<span>SQL</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<p><em>SQL / NOSQL</em></p>
+					</div>
+				</div>
+			</div>
 	</div>
+	</div>
+	</section>
+
+	</div>
+
+	<!-------------------------------------------------------------------------------------------FOOTER-------------------------------------------------------------->
+
 	<footer class="footer-bg text-center">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="footer-heading">
@@ -292,9 +339,12 @@
 					</div>
 					<hr>
 					<div class="footer-content social-item">
-						<a href="https://en-gb.facebook.com/" class="hvr-push social-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
-						<a href="https://www.linkedin.com/in/tomjoneswebdev/" class="hvr-push social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
-						<a href="https://github.com/kushberrycream" class="hvr-push social-link" target="_blank"><i class="fab fa-github-square"></i></a>
+						<a href="https://en-gb.facebook.com/" class="hvr-push social-link"
+							target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="https://www.linkedin.com/in/tomjoneswebdev/" class="hvr-push social-link"
+							target="_blank"><i class="fab fa-linkedin"></i></a>
+						<a href="https://github.com/kushberrycream" class="hvr-push social-link"
+							target="_blank"><i class="fab fa-github-square"></i></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -317,7 +367,8 @@
 					</div>
 					<div class="footer-content">
 						<br>
-						<a href="contact.html" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop" data-remote="false">Send Me A
+						<a href="contact.html" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop"
+							data-remote="false">Send Me A
 							Message!
 							<i class="far fa-paper-plane"></i></a>
 					</div>
