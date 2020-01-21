@@ -376,9 +376,8 @@ footer h6 a i {
         height: 250px;
     }
     .background {
-    background: url("../images/unsplash.jpg") no-repeat center center fixed; 
-    background-size: 1000px, cover;
-    height: 100vh;
+    background: url("../images/unsplash.jpg") no-repeat center center; 
+    background-size: cover;
     
 }
 }
