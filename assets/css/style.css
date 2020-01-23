@@ -57,7 +57,7 @@ body {
 .social-fixed-side {
     position: fixed;
     right: 0;
-    top: 50vh;
+    top: 35vh;
     z-index: 1;
 }
 
@@ -85,6 +85,7 @@ body {
 .navbar-toggler {
     position: absolute;
     right: 0;
+    z-index: 1;
 }
 
 .btn-success {
@@ -150,11 +151,6 @@ label {
     display: block;
 }
 
-
-.help-block.with-errors {
-    color: #ff5050;
-    margin-top: 5px;
-}
 
 .controls {
     margin: 0 20px 0 20px;
@@ -243,20 +239,26 @@ label {
 
 /* ------------------------------------------------ SKILLS / EXPERIENCE */
 
-.skills-bg {
-    background-color: #cec2b9;
+
+.logos {
+    height:225px;
+    padding-bottom: 20px;
 }
 
 .col-6 {
     padding-bottom: 20px;
 }
 
-.experience-bg {
+.skills-bg {
     background-color: rgba(238, 235, 232, .7);
     border-radius: 25px;
 
 }
 
+.version-control {
+    width: 300px;
+    padding-bottom: 30px;
+}
 
 
 /* ------------------------------------------------ FOOTER */
@@ -316,7 +318,11 @@ footer h6 a i {
 
 
 /* ----------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
-
+@media (min-width: 1000px) and (min-height: 1000px) {
+    .landing-body {
+        padding: 250px;
+    }
+}
 
 @media (min-width: 2000px) {
     .container {
@@ -359,8 +365,7 @@ footer h6 a i {
 
 @media (max-width: 576px) {
     .landing-body {
-        padding-top:20px;
-        height:80vh;
+        padding-top: 20px;
     }
     .landing-body h1 {
         font-size: 2rem;
@@ -373,10 +378,17 @@ footer h6 a i {
     }
     .about-me {
         padding: 25px;
-        border-radius: 0;
+        border-radius: 0
     }
     .headshot {
-        height: 250px;
+        height: 200px;
+    }
+    .modal.show .modal-dialog {
+        width: 100vw;
+    }
+    .contact-form {
+        width:100%;
     }
 }
+
 
