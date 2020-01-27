@@ -24,14 +24,19 @@ body {
     background-size: cover;
     position: relative;
     
+    
 }
-.background-contact {
+.heading-background {
     background: url("../images/unsplash.jpg") no-repeat center center fixed; 
     background-size: cover;
     position: relative;
-    height: 50%;
-    
+    height:50vh;
 }
+
+.heading {
+    padding-top: 100px;
+}
+
 /* ------------------------------------------------- SCROLLBAR STYLE */
 /* width */
 ::-webkit-scrollbar {
@@ -81,11 +86,19 @@ body {
 }
 
 /*-------------------------------------------------------- NAVBAR */
+.navbar {
+    width:95%;
+    backdrop-filter: blur(25px);
+    z-index: 1;
+}
 
 .navbar-toggler {
     position: absolute;
     right: 0;
     z-index: 1;
+}
+.navbar-collapse::after {
+    filter:blur()
 }
 
 .btn-success {
@@ -217,7 +230,7 @@ label {
                  0 0 0.2em #3E3F3A,
                  0 0 0.3em #3E3F3A;
     position:absolute;
-    top:85vh;
+    top:75vh;
     transform:translateY(-100%);
     width:100%;
     z-index: 1;
@@ -364,8 +377,11 @@ footer h6 a i {
 }
 
 @media (max-width: 576px) {
+    .navbar {
+         position: absolute;
+    }
     .landing-body {
-        padding-top: 20px;
+        padding-top: 100px;
     }
     .landing-body h1 {
         font-size: 2rem;
