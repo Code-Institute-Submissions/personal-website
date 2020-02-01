@@ -10,8 +10,8 @@ https://kushberrycream.github.io/personal-website/
 
 ## UX
 ### User Stories
-User | User Stories
----- | ------------
+First Header | Second Header
+------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
