@@ -5,7 +5,7 @@ This is my Portfolio. I plan to use this site as a platform to showcase me and m
 Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects.
 
 ## Demo
-Here is the live demo hosted on GitHub Pages
+Here is the live demo hosted on GitHub Pages -
 https://kushberrycream.github.io/personal-website/
 
 ## UX
@@ -15,7 +15,7 @@ https://kushberrycream.github.io/personal-website/
 | ------ | ------ |
 | Employers | As an Employer I want to be able to access recent projects and also to be able to see a CV to get a more in depth view. |
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
-| Collaborators | As a Collaborator I want to see Recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
+| Collaborators | As a Collaborator I want to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -38,10 +38,10 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I have used a few components which use bootstraps jQuery plugins.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the 
 - ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -54,10 +54,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-i Have used a 
+Here is a list of the Technologies i have used throughout my Portfolio.
 
-- [Balsamiq](https://balsamiq.com/)
-    - I have used Balsamiq Mockups 3 to create my wireframes.
+- [Balsamiq Mockups 3](https://balsamiq.com/)
+    - I have used Balsamiq to create my wireframes.
 - [HTML5](https://www.w3.org/html/)
     - I use HTML to create the basic structure of my portfolio.
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
@@ -65,6 +65,8 @@ i Have used a
 - [Bootstrap 4](https://getbootstrap.com/)
     - I have implimented the Bootstrap CSS framework to create a responsive mobile-first website, I have used multiple components and
     edited them to fit my needs.
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome was used for all of my icons.
 
 ## Testing
 
