@@ -13,9 +13,9 @@ https://kushberrycream.github.io/personal-website/
 
 | User | User Stories |
 | ------ | ------ |
-| Employers | Content from cell 2 |
-| Recruiters | Content in the second column |
-| Collaborators | Content in the second column |
+| Employers | As an Employer I want to be able to access recent projects and also to be able to see a CV to get a more in depth view. |
+| Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
+| Collaborators | As a Collaborator I want to see Recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
