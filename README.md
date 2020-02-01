@@ -4,7 +4,7 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience. I want to be able to use this site to give 
 
 ## Demo
-Here is the live demo hosted on GitHub Pages [DEMO] https://kushberrycream.github.io/personal-website/
+Here is the live demo hosted on GitHub Pages [DEMO](https://kushberrycream.github.io/personal-website/)
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
