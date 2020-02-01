@@ -1,8 +1,7 @@
 # Tom Jones Personal Portfolio | First Milestone Project
-One or two paragraphs providing an overview of your project.
+Stream One Project: User-Centric Frontend Development - Code Institute
 
-Essentially, this part is your sales pitch.
- 
+This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience. I want to be able to use this site to give 
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -31,8 +30,18 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Balsamiq](https://balsamiq.com/)
+    - I have used Balsamiq Mockups 3 to create my wireframes.
+- [HTML5](https://www.w3.org/html/)
+    - I use HTML to create the basic structure of my portfolio.
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+    - CSS give my site its look and style 
+- [Bootstrap 4](https://getbootstrap.com/)
+    - CSS give my site its look and style 
+    
+ ![GitHub Logo](https://c7.uihere.com/files/196/91/583/balsamiq-mockup-website-wireframe-computer-icons-user-interface-mockups-logo-thumb.jpg)
+Format: ![Alt Text](https://c7.uihere.com/files/196/91/583/balsamiq-mockup-website-wireframe-computer-icons-user-interface-mockups-logo-thumb.jpg)
+    
 
 
 ## Testing
