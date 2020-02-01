@@ -2,6 +2,9 @@
 Stream One Project: User-Centric Frontend Development - Code Institute
 
 This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience. I want to be able to use this site to give 
+
+## Demo
+Here is the live demo hosted on GitHub Pages [DEMO]https://kushberrycream.github.io/personal-website/
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -24,11 +27,12 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
+- I plan to actually replace sample portfolio projects as my own projects instead of other github repositories i have found. 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+i Have used a 
 
 - [Balsamiq](https://balsamiq.com/)
     - I have used Balsamiq Mockups 3 to create my wireframes.
@@ -37,12 +41,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
     - CSS give my site its look and style 
 - [Bootstrap 4](https://getbootstrap.com/)
-    - CSS give my site its look and style 
-    
- ![GitHub Logo](https://c7.uihere.com/files/196/91/583/balsamiq-mockup-website-wireframe-computer-icons-user-interface-mockups-logo-thumb.jpg)
-Format: ![Alt Text](https://c7.uihere.com/files/196/91/583/balsamiq-mockup-website-wireframe-computer-icons-user-interface-mockups-logo-thumb.jpg)
-    
-
+    - I have implimented the Bootstrap CSS framework to create a responsive mobile-first website, I have used multiple components and
+    edited them to fit my needs.
 
 ## Testing
 
