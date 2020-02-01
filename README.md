@@ -1,5 +1,5 @@
 # Tom Jones Personal Portfolio | First Milestone Project
-Stream One Project: User-Centric Frontend Development - Code Institute
+**Stream One Project: User-Centric Frontend Development - Code Institute**
 
 This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
 Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects.
@@ -17,11 +17,7 @@ https://kushberrycream.github.io/personal-website/
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
 | Collaborators | As a Collaborator I want to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
-
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
