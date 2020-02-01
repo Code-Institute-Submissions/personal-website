@@ -1,18 +1,36 @@
 # Tom Jones Personal Portfolio | First Milestone Project
 Stream One Project: User-Centric Frontend Development - Code Institute
 
-This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience. I want to be able to use this site to give 
+This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
+Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects.
 
 ## Demo
-Here is the live demo hosted on GitHub Pages [DEMO](https://kushberrycream.github.io/personal-website/)
+Here is the live demo hosted on GitHub Pages
+https://kushberrycream.github.io/personal-website/
+
 ## UX
- 
+### User Stories
+User | User Stories
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+### Wireframes
+[Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Landing%20.png)
+
+[About Me Section](https://github.com/kushberrycream/personal-website/blob/master/wireframes/About%20Me.png)
+
+[Portfolio Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Portfolio.png)
+
+[Contact Modal](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Contact%20Modal.png)
+
+[Contact Js Fallback](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Contact%20js%20Fallback.png)
 
 ## Features
 
@@ -28,7 +46,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 - I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
-- I plan to actually replace sample portfolio projects as my own projects instead of other github repositories i have found. 
+- I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found. 
 
 ## Technologies Used
 
