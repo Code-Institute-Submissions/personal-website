@@ -5,8 +5,7 @@ This is my Portfolio. I plan to use this site as a platform to showcase me and m
 Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects.
 
 ## Demo
-Here is the live demo hosted on GitHub Pages -
-https://kushberrycream.github.io/personal-website/
+Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live Portfolio.
 
 ## UX
 ### User Stories
@@ -18,8 +17,6 @@ https://kushberrycream.github.io/personal-website/
 | Collaborators | As a Collaborator I want to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ### Wireframes
 [Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Landing%20.png)
@@ -85,21 +82,14 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
+I have currently deployed my Portfolio on GitHub Pages using the master branch. The site will update on all new commits to the master branch. I use 'git commit' to commit to the local repository and the use 'git push' to send ant changed to the master branch. 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal. 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All the content has been written by myself, except the CV which was created using [Kickresume](https://www.kickresume.com/en/). 
 
 ### Media
 - The photos used in this site were obtained from ...
