@@ -31,15 +31,13 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 ## Features
 
-Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I have used a few components which use bootstraps jQuery plugins.
+Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
  
 ### Existing Features
-- Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the 
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but not my about me as you will still be able to reach everywhere on my site without the use of this. On smaller viewports the navbar uses bootstraps collapse plugin. 
+- Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
+- Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
+- Tooltips - I have used Tooltips on my sidebar buttons to give some people a description of what the button does. This uses the  Popper.js posistioning engine to help with the posistioning of the tooltips. 
 
 ### Features Left to Implement
 - I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
@@ -78,8 +76,7 @@ For any scenarios that have not been automated, test the user stories manually a
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+During my Testing i noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon. 
 
 ## Deployment
 I have currently deployed my Portfolio on GitHub Pages using the master branch. The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send ant changed to the master branch. 
@@ -92,9 +89,12 @@ You can run this repository locally by pasting `git clone https://github.com/kus
 All the content has been written by myself, except the CV which was created using [Kickresume](https://www.kickresume.com/en/). 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The main background came from [Unsplash](https://unsplash.com/photos/b18TRXc8UPQ)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I recieved inspiration through google searches for personal websites here are some of them:
+    - [The Muse](https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen)
+    - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
+    - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
 
