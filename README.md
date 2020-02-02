@@ -82,7 +82,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-I have currently deployed my Portfolio on GitHub Pages using the master branch. The site will update on all new commits to the master branch. I use 'git commit' to commit to the local repository and the use 'git push' to send ant changed to the master branch. 
+I have currently deployed my Portfolio on GitHub Pages using the master branch. The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send ant changed to the master branch. 
 
 You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal. 
 
