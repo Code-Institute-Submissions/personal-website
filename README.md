@@ -2,13 +2,36 @@
 **Stream One Project: User-Centric Frontend Development - Code Institute**
 
 This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
-Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects.
+Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.
 
 ## Demo
 Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live Portfolio.
 
+# Table of contents
+
+   * [Demo](#demo)
+   * [UX](#ux)
+     * [Strategy](#strategy)
+     * [Scope](#scope)
+     * [Structure](#structure)
+     * [Skeleton](#skeleton)
+     * [Surface](#surface)
+   * [Features](#features)
+     * [Existing Features](#existing-features)
+     * [Features Left to Implement](#features-left-to-implement)
+   * [Technologies Used](#technologies-used)
+   * [Testing](#testing)
+   * [Deployment](#deployment)
+   * [Credits](#credits)
+     * [Content](#content)
+     * [Media](#media)
+     * [Acknowledgments](#acknowledgements)
+
 ## UX
-### User Stories
+### Strategy
+
+### Scope
+#### User Stories
 
 | User | User Stories |
 | ------ | ------ |
@@ -16,9 +39,9 @@ Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
 | Collaborators | As a Collaborator I want to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### Structure
 
-### Wireframes
+### Skeleton
 [Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Landing%20.png)
 
 [About Me Section](https://github.com/kushberrycream/personal-website/blob/master/wireframes/About%20Me.png)
@@ -28,6 +51,8 @@ Use this section to provide insight into your UX process, focusing on who this w
 [Contact Modal](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Contact%20Modal.png)
 
 [Contact Js Fallback](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Contact%20js%20Fallback.png)
+
+### Surface
 
 ## Features
 
@@ -97,4 +122,5 @@ All the content has been written by myself, except the CV which was created usin
     - [The Muse](https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen)
     - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
+- I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
 
