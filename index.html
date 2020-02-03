@@ -14,6 +14,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css">
 	<script src="https://kit.fontawesome.com/8c483914fb.js" crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip({
+        placement: 'right'
+    });
+});
+</script>
 	<title>Tom Jones | Full Stack Developer</title>
 </head>
 
@@ -21,8 +28,7 @@
 	<!-------------SOCIAL SIDE BAR -------------->
 	<div class="social-fixed-side">
 		<div class="social-item">
-			<a href="https://en-gb.facebook.com/" class="hvr-push social-link"
-				target="_blank"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://en-gb.facebook.com/" class="hvr-push social-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
 		</div>
 		<div class="social-item">
 			<a href="https://www.linkedin.com/in/tomjoneswebdev/" class="hvr-push social-link"
@@ -164,7 +170,7 @@
 
 		<nav class="navbar navbar-light navbar-expand-sm container-md text-center">
 
-			<a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong></a>
+			<a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Software Developer</a>
 
 			<div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto text-left">
@@ -196,8 +202,8 @@
 					<div class="col-md-4 text-center">
 						<img class="headshot" src="https://i.pinimg.com/236x/09/b6/d2/09b6d243fb90b72b6f2a40fba4c303d1--tom-jones-amazing-people.jpg" alt="face">
                     </div>
-					</div>
 				</div>
+			</div>
 
 		</section>
 		<section id="about-me" class="about-me container-md text-center">
@@ -210,7 +216,7 @@
 						always looking to improve upon myself with every task. I'm orignally from the Courier Industry
 						where i have spent the last 11 years. My most recent role was Operations Supervisor where I took
 						control of 20+ Drivers and 1500 parcels daily.
-						<br> I like to take hard earned breaks with long country walks, traveling and repairing my classic Volkswagen!
+						<br> I like to take hard earned breaks with long country walks, travelling, looking after my many Tarantulas and repairing my classic Volkswagen!
                     </p>
 				</div>
 			</div>
@@ -234,18 +240,18 @@
 						I will be able to fluently combine HTML, CSS and Js to design beautiful Web Applications
 						combining User Interface Design and User Experience. </p>
 				</div>
-				<div class="col-md-6">
-					<div class="text-center">
+				<div class="col-md-6 align-self-center text-center">
+					
 						<img class="logos" src="assets/images/frontend.png" alt="icons">
-                        </div>
+                       
 					</div>
 				</div>
 
 				<div class="row no-gutters">
-					<div class="d-none d-md-block col-sm-6 ">
-						<div class="text-center">
+					<div class="d-none d-md-block col-sm-6 col-md-6 align-self-center text-center">
+					
 							<img class="logos" src="assets/images/backend.png" alt="backend logos">
-                        </div>
+                        
 						</div>
 						<div class="col-md-6 text-center">
 							<h3 class="">Back End</h3>
@@ -255,17 +261,18 @@
 								to process and present information.
 							</p>
 						</div>
-						<div class="d-block d-md-none col-12">
-							<div class="text-center">
+						<div class="d-block d-md-none col-12 align-self-center text-center">
+							
 								<img class="logos" src="assets/images/backend.png" alt="backend logos">
-                        </div>
+                        
 							</div>
 						</div>
 						<hr>
 						<div class="row no-gutters text-center">
 							<div class="col-12">
-								I also have experience using git for version control, I use git to automatically commit
-								changes to my Github repositories.
+                            <h3>Version Control</h3>
+								<p>I also have experience using git for version control, I use git to automatically commit
+								changes to my Github repositories.</p>
 							</div>
 							<div class="col-md-6">
 								<img class="version-control" src="assets/images/gitlogo.png" alt="git">
@@ -560,6 +567,7 @@
 			</div>
 		</div>
 	</footer>
+
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

@@ -19,7 +19,7 @@ body {
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
-    }
+}
 
 h1, h2, h3 {
     padding: 30px 0;
@@ -131,6 +131,7 @@ h1, h2, h3 {
     border-color: #3e3f3a;
     background-color: #3e3f3a;
 }
+.btn-success:not(:disabled):not(.disabled):active:focus,
 .btn-success:focus {
     box-shadow: 0 0 0 0.2rem rgba(62, 63, 58, 0.5);
 }
@@ -175,7 +176,7 @@ h1, h2, h3 {
 
 /* ----------------------------------------------------------------- LANDING */
 
-.landing-body h1, h2, h3 {
+.landing-body h1, h2 {
     padding: 0;
 }
 .landing-body {
