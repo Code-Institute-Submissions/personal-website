@@ -275,6 +275,7 @@ label {
 .skills-bg {
     background-color: rgba(238, 235, 232, .7);
     border-radius: 25px;
+    padding-bottom: 40px;
 
 }
 
@@ -284,8 +285,6 @@ label {
 }
 
 /* -------------------------------------------------------------- TIMELINE / HISTORY */
-
-.main-timeline{ font-family: 'Niramit', sans-serif; }
 .main-timeline:after{
     content: '';
     display: block;
@@ -303,7 +302,7 @@ label {
     font-size: 50px;
     text-align: center;
     margin-bottom: 10px;
-    transition: all 0.3s;
+    transition: all 1.5s;
 }
 .main-timeline  .timeline:hover .timeline-icon{ transform: rotateY(360deg); }
 .main-timeline .timeline-year{
@@ -361,6 +360,10 @@ label {
     background-color: #797062;
 }
 .main-timeline .timeline-2 .inner-content{ border-left-color: #797062; }
+
+.centeredtimeline {
+    margin: 0 auto; 
+}
 
 @media screen and (max-width:767px){
     .main-timeline .timeline{ margin: 0 0 15px; }
@@ -424,9 +427,6 @@ footer h6 a i {
 
 
 /* -------------------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
-@media (min-width: 1000px)  {
-    
-}
 
 @media (min-width: 2000px) {
     .container {
@@ -460,7 +460,7 @@ footer h6 a i {
         font-size: 2rem;
     }
 }
-@media (min-width: 770px) {
+@media (min-width: 770px) and (min-height: 500px) {
 .landing-body {
         padding: 220px;
     }

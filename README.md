@@ -154,13 +154,9 @@ All the content has been written by myself, except the CV which was created usin
     - [The Muse](https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen)
     - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
-<<<<<<< HEAD
 - I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, 
 i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
 - The timeline was sourced from [Best jQuery](https://bestjquery.com/tutorial/timeline/demo50/)
-=======
-- I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
->>>>>>> 0be4ef1028373bdcedebc5538cbc04d3d3367ad8
 - Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
 
 <p align="right">
