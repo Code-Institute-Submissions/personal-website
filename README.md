@@ -1,4 +1,4 @@
-# Tom Jones Personal Portfolio | First Milestone Project
+# Tom Jones Personal Portfolio - First Milestone Project
 **Stream One Project: User-Centric Frontend Development - Code Institute**
 
 This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
@@ -7,7 +7,7 @@ Currently this page only shows a couple lessons i have undertaken so far and som
 ## Demo
 Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live Portfolio.
 
-# Table of contents
+## Table of contents
 
    * [Demo](#demo)
    * [UX](#ux)
@@ -27,11 +27,11 @@ Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live
      * [Media](#media)
      * [Acknowledgments](#acknowledgements)
 
-## UX
+## UX  
 ### Strategy
+The main goal of my portfolio will be to give all the essential information in a ledgable and easily accesible manner to all users. I aim to keep the design minimilstic to give a good user experience.
 
 ### Scope
-#### User Stories
 
 | User | User Stories |
 | ------ | ------ |
@@ -39,7 +39,17 @@ Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
 | Collaborators | As a Collaborator I want to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
+I want to give all users a quick overview of myself, my skills and experiences.
+
+Employers are able to easily obtain an up to date CV from multiple locations on the site. They can see any recent projects on my portfolio page if they like what they see they can contact me via the contact form.
+
+Recruiters can download or view my CV from multiple locations and they can also contact me via the contact form if they need any more info.
+
+Collaborators can quickly view any Current and past projects, they can also link to my main github account and any more i may add in the future.
+
 ### Structure
+
+-
 
 ### Skeleton
 [Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Landing%20.png)
@@ -54,6 +64,8 @@ Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live
 
 ### Surface
 
+[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+
 ## Features
 
 Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
@@ -66,7 +78,9 @@ Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I
 
 ### Features Left to Implement
 - I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
-- I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found. 
+- I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
+
+[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
 
 ## Technologies Used
 
@@ -83,6 +97,8 @@ Here is a list of the Technologies i have used throughout my Portfolio.
     edited them to fit my needs.
 - [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used for all of my icons.
+    
+[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
 
 ## Testing
 
@@ -103,10 +119,15 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 During my Testing i noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon. 
 
-## Deployment
-I have currently deployed my Portfolio on GitHub Pages using the master branch. The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send ant changed to the master branch. 
+[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
 
-You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal. 
+## Deployment
+I have currently deployed my Portfolio on GitHub Pages using the master branch. It can be viewed on https://kushberrycream.github.io/personal-website/, this will eventually be accesible from my own domain. 
+The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send ant changed to the master branch. 
+
+You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal.
+
+[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
 
 ## Credits
 
@@ -115,6 +136,7 @@ All the content has been written by myself, except the CV which was created usin
 
 ### Media
 - The main background came from [Unsplash](https://unsplash.com/photos/b18TRXc8UPQ)
+- Image of Tom Jones found [Pintrest](https://www.pinterest.com/pin/402368547935136970/)
 
 ### Acknowledgements
 
@@ -124,3 +146,4 @@ All the content has been written by myself, except the CV which was created usin
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
 - I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
 
+[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
