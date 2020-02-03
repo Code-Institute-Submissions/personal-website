@@ -45,7 +45,7 @@ body {
     position: relative;
 }
 
-/* ------------------------------------------------- SCROLLBAR STYLE */
+/* ----------------------------------------------------------------- SCROLLBAR STYLE */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -66,7 +66,7 @@ body {
   background: #555; 
 }
 
-/*--------------------------------------------------- SOCIAL SIDE LINKS */
+/*--------------------------------------------------------------------- SOCIAL SIDE LINKS */
 .social-fixed-side {
     position: fixed;
     right: 0;
@@ -93,7 +93,7 @@ body {
     width: 100%;
 }
 
-/*-------------------------------------------------------- NAVBAR */
+/*--------------------------------------------------------------------------- NAVBAR */
 .navbar {
     width:100%;
     -webkit-backdrop-filter:blur(25px);
@@ -140,7 +140,7 @@ body {
     color: #eeebe8;
 }
 
-/* ------------------------------------------------------- CONTACT-MODAL */
+/* --------------------------------------------------------------------- CONTACT-MODAL */
 
 .modal.show .modal-dialog {
     -webkit-transform: none;
@@ -167,7 +167,7 @@ body {
     background-color: #eeebe8;
 }
 
-/* ------------------------------------------------------------- Contact us js Fallback */
+/* -------------------------------------------------------------------- Contact us js Fallback */
 
 label {
     color: #333;
@@ -196,7 +196,7 @@ label {
 
 
 .label-name {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Titillium+Web", sans-serif;
     font-size: 11px;
     font-weight: bolder;
     color: #666;
@@ -216,7 +216,7 @@ label {
     height: 25px;
 }
 
-/* ------------------------------------------------------- LANDING */
+/* ----------------------------------------------------------------- LANDING */
 
 
 .landing-body {
@@ -251,7 +251,7 @@ label {
     color: #eeebe8;
 }
 
-/* ----------------------------------------------- ABOUT ME */
+/* ----------------------------------------------------------------- ABOUT ME */
 .about-me {
     padding: 150px;
     background-color:#cec2b9;
@@ -260,7 +260,7 @@ label {
 }
 
 
-/* ------------------------------------------------ SKILLS / EXPERIENCE */
+/* ---------------------------------------------------------------- SKILLS / EXPERIENCE */
 
 
 .logos {
@@ -283,8 +283,91 @@ label {
     padding-bottom: 30px;
 }
 
+/* -------------------------------------------------------------- TIMELINE / HISTORY */
 
-/* ------------------------------------------------ FOOTER */
+.main-timeline{ font-family: 'Niramit', sans-serif; }
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{ margin: 0 -15px; }
+.main-timeline .timeline-content{
+    color: #3E3F3A;
+    text-align: left;
+    display: block;
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-icon{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+.main-timeline  .timeline:hover .timeline-icon{ transform: rotateY(360deg); }
+.main-timeline .timeline-year{
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.main-timeline .timeline-year:after{
+    content: '';
+    height: 60px;
+    width: 107%;
+    background-color: #3E3F3A;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.main-timeline .timeline-year span{
+    color: #EEEBE8;
+    background-color: #3E3F3A;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #999, 0 0 0 15px #EEEBE8;
+    display: block;
+}
+.main-timeline .inner-content{
+    padding: 0 10px 10px 15px;
+    border-left: 15px solid #3E3F3A;
+}
+.main-timeline .title{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+.main-timeline .description{
+    color: #333;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.main-timeline .timeline-2 .timeline-icon,
+.main-timeline .timeline-2 .title{
+    color: #797062;
+}
+.main-timeline .timeline-2 .timeline-year:after,
+.main-timeline .timeline-2 .timeline-year span{
+    background-color: #797062;
+}
+.main-timeline .timeline-2 .inner-content{ border-left-color: #797062; }
+
+@media screen and (max-width:767px){
+    .main-timeline .timeline{ margin: 0 0 15px; }
+    .main-timeline .timeline-year:after{ width: 100%; }
+}
+
+/* ------------------------------------------------------------------ FOOTER */
 .footer-bg {
     background-color:#3E3F3A;
     color: #797062;
@@ -340,11 +423,9 @@ footer h6 a i {
 }
 
 
-/* ----------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
-@media (min-width: 1000px) and (min-height: 1000px) {
-    .landing-body {
-        padding: 250px;
-    }
+/* -------------------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
+@media (min-width: 1000px)  {
+    
 }
 
 @media (min-width: 2000px) {
@@ -379,8 +460,14 @@ footer h6 a i {
         font-size: 2rem;
     }
 }
+@media (min-width: 770px) {
+.landing-body {
+        padding: 220px;
+    }
 
+}
 @media (max-width: 770px) {
+    
     .about-me {
         padding: 100px;
     }
@@ -419,6 +506,13 @@ footer h6 a i {
     .contact-form {
         width:100%;
     }
+    .logos {
+    height: 170px;
+    padding-bottom: 20px;
+}
+.version-control {
+    width: 250px;
+}
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
@@ -428,10 +522,5 @@ footer h6 a i {
     .headshot {
         display: none;
     }
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
 }
 
