@@ -76,7 +76,6 @@ Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I
 - [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but not my about me as you will still be able to reach everywhere on my site without the use of this. On smaller viewports the navbar uses bootstraps collapse plugin. 
 - [x] Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
 - [x] Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
-- [x] Tooltips - I have used Tooltips on my sidebar buttons to give some people a description of what the button does. This uses the  Popper.js posistioning engine to help with the posistioning of the tooltips. 
 
 ### Features Left to Implement
 - [ ] I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
@@ -120,10 +119,12 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+My Website is responsive on all screen sizes and browsers the only issue I could find was Mozilla not displaying `backdrop-filter`. I don't believe this 
+is an issue as the blur is only in place for mobile devices that need to use the collapsible Navbar.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-During my Testing i noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon. 
+
+During my Testing I noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon.
 
 <p align="right">
   <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
@@ -131,7 +132,7 @@ During my Testing i noticed on real devices things may not display as Dev Tools 
 
 ## Deployment
 I have currently deployed my Portfolio on GitHub Pages using the master branch. It can be viewed on https://kushberrycream.github.io/personal-website/, this will eventually be accesible from my own domain. 
-The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send ant changed to the master branch. 
+The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send any changed to the master branch. 
 
 You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal.
 
@@ -146,11 +147,11 @@ All the content has been written by myself, except the CV which was created usin
 
 ### Media
 - The main background came from [Unsplash](https://unsplash.com/photos/b18TRXc8UPQ)
-- Image of Tom Jones found [Pintrest](https://www.pinterest.com/pin/402368547935136970/)
+- Image of Tom Jones found on [Pintrest](https://www.pinterest.com/pin/402368547935136970/)
 
 ### Acknowledgements
 
-- I recieved inspiration through google searches for personal websites here are some of them:
+- I recieved inspiration through google searches for personal websites, here are some of them:
     - [The Muse](https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen)
     - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
