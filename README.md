@@ -8,7 +8,6 @@ Currently this page only shows a couple lessons i have undertaken so far and som
 Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live Portfolio.
 
 ## Table of contents
-
    * [Demo](#demo)
    * [UX](#ux)
      * [Strategy](#strategy)
@@ -32,7 +31,6 @@ Click [HERE](https://kushberrycream.github.io/personal-website/) to view my Live
 The main goal of my portfolio will be to give all the essential information in a ledgable and easily accesible manner to all users. I aim to keep the design minimilstic to give a good user experience.
 
 ### Scope
-
 | User | User Stories |
 | ------ | ------ |
 | Employers | As an Employer I want to be able to access recent projects and also to be able to see a CV to get a more in depth view. |
@@ -64,6 +62,8 @@ Collaborators can quickly view any Current and past projects, they can also link
 
 ### Surface
 
+I wanted my site to have a minimilistic feel, using one background image on each page to create consistency throughout the portfolio. I have also used the background to select the colour palette for my portfolio, I used the colours for my fonts, icons, etc.
+
 [Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
 
 ## Features
@@ -77,8 +77,8 @@ Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I
 - Tooltips - I have used Tooltips on my sidebar buttons to give some people a description of what the button does. This uses the  Popper.js posistioning engine to help with the posistioning of the tooltips. 
 
 ### Features Left to Implement
-- I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
-- I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
+- [ ] I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
+- [ ] I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
 
 [Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
 
@@ -91,9 +91,9 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 - [HTML5](https://www.w3.org/html/)
     - I use HTML to create the basic structure of my portfolio.
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-    - CSS give my site its look and style 
+    - CSS gives my site its look and style 
 - [Bootstrap 4](https://getbootstrap.com/)
-    - I have implimented the Bootstrap CSS framework to create a responsive mobile-first website, I have used multiple components and
+    - I have implimented the Bootstrap CSS framework to create a responsive mobile-first website, I have used multiple standard components and
     edited them to fit my needs.
 - [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used for all of my icons.
@@ -132,7 +132,7 @@ You can run this repository locally by pasting `git clone https://github.com/kus
 ## Credits
 
 ### Content
-All the content has been written by myself, except the CV which was created using [Kickresume](https://www.kickresume.com/en/). 
+All the content has been written by myself, except the CV which was created using [Kickresume](https://www.kickresume.com/en/).
 
 ### Media
 - The main background came from [Unsplash](https://unsplash.com/photos/b18TRXc8UPQ)
@@ -145,5 +145,6 @@ All the content has been written by myself, except the CV which was created usin
     - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
 - I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
+- Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
 
 [Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
