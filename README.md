@@ -64,7 +64,9 @@ Collaborators can quickly view any Current and past projects, they can also link
 
 I wanted my site to have a minimilistic feel, using one background image on each page to create consistency throughout the portfolio. I have also used the background to select the colour palette for my portfolio, I used the colours for my fonts, icons, etc.
 
-[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+<p align="right">
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+</p>
 
 ## Features
 
@@ -80,7 +82,9 @@ Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I
 - [ ] I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
 - [ ] I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
 
-[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+<p align="right">
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+</p>
 
 ## Technologies Used
 
@@ -98,7 +102,9 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 - [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used for all of my icons.
     
-[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+<p align="right">
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+</p>
 
 ## Testing
 
@@ -119,7 +125,9 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 During my Testing i noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon. 
 
-[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+<p align="right">
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+</p> 
 
 ## Deployment
 I have currently deployed my Portfolio on GitHub Pages using the master branch. It can be viewed on https://kushberrycream.github.io/personal-website/, this will eventually be accesible from my own domain. 
@@ -127,7 +135,9 @@ The site will update on all new commits to the master branch. I use `git commit`
 
 You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal.
 
-[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+<p align="right">
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+</p> 
 
 ## Credits
 
@@ -147,4 +157,6 @@ All the content has been written by myself, except the CV which was created usin
 - I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
 - Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
 
-[Back to Top:arrow_heading_up:](#tom-jones-personal-portfolio---first-milestone-project) 
+<p align="right">
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
+</p>
