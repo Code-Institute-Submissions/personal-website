@@ -153,58 +153,11 @@ h1, h2, h3 {
     background-color: #eeebe8;
 }
 
-/* -------------------------------------------------------------------- Contact us js Fallback */
-
-label {
-    color: #333;
-    display: block;
-}
-
-
-.controls {
-    margin: 0 20px 0 20px;
-}
-.form-control {
-    border: none;
-    background-color: transparent;
-}
-
-.form-control:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.01);
-
-}
-
-.input-wrap {
-    border: 1px solid #ced4da;
-    border-radius: 10px;
-    margin: 15px 10px 15px;
-}
-
-
-.label-name {
-    font-family: "Titillium+Web", sans-serif;
-    font-size: 11px;
-    font-weight: bolder;
-    color: #666;
-    line-height: 1.2;
-    text-transform: uppercase;
-    padding: 5px 0 11px 20px;
-    height: 0;
-    
-}
-
-.contact-form {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.input {
-    height: 25px;
-}
-
 /* ----------------------------------------------------------------- LANDING */
 
-
+.landing-body h1, h2, h3 {
+    padding: 0;
+}
 .landing-body {
     flex-grow: 1;
     flex-shrink: 0;
@@ -242,6 +195,10 @@ label {
     padding: 150px;
     background-color:#cec2b9;
     border-radius: 25px;
+}
+
+.about-me h1 {
+    padding-top: 0;
 
 }
 
@@ -416,6 +373,54 @@ footer h6 a i {
 
 }
 
+/* -------------------------------------------------------------------- Contact us js Fallback */
+
+label {
+    color: #333;
+    display: block;
+}
+
+
+.controls {
+    margin: 0 20px 0 20px;
+}
+.form-control {
+    border: none;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.01);
+
+}
+
+.input-wrap {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin: 15px 10px 15px;
+}
+
+
+.label-name {
+    font-family: "Titillium+Web", sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: #666;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding: 5px 0 11px 20px;
+    height: 0;
+    
+}
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input {
+    height: 25px;
+}
 
 /* -------------------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
 
