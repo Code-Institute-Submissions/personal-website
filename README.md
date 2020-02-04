@@ -77,7 +77,8 @@ I wanted my site to have a minimilistic feel, using one background image on each
 Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
  
 ### Existing Features
-- [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but not my about me as you will still be able to reach everywhere on my site without the use of this. On smaller viewports the navbar uses bootstraps collapse plugin. 
+- [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but it is not fixed as you will still be able to reach everywhere on my site without the use of this. 
+On smaller viewports the navbar uses bootstraps collapse plugin. I made a `<noscript>` tag so i could add some styling to make the collapsed menu display on devices with Javascript disabled.
 - [x] Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
 - [x] Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
 - [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.

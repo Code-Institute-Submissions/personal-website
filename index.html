@@ -11,14 +11,31 @@
     <link rel="stylesheet" href="assets/css/circle.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <script src="https://kit.fontawesome.com/8c483914fb.js" crossorigin="anonymous"></script>
-    <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip({
-                placement: 'right'
-            });
-        });
-    </script>
+    
     <title>Tom Jones | Full Stack Developer</title>
+    <noscript>                              <!----Navbar No Js Fallback---->
+        <style>
+            .collapse:not(.show) {
+                display:inline;
+            }
+            .navbar-collapse {
+                flex-basis: 0;
+            }
+            .navbar-nav {
+                flex-direction: column;
+            }
+            .navbar-toggler {
+                display:none;
+            }
+            .nav-link {
+                padding: 0;
+            }
+            .text-left {
+                text-align: right!important;
+            }
+        </style>
+                              
+    </noscript>                             <!----Navbar No Js Fallback---->
 </head>
 
 <body>
@@ -156,7 +173,7 @@
     <div class="background">
 
         <nav class="navbar navbar-light navbar-expand-sm container-md text-center">
-
+            
             <a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Software Developer</a>
 
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
@@ -176,7 +193,7 @@
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
         </nav>
 
         <section class="landing-body">
