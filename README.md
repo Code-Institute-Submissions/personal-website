@@ -80,6 +80,7 @@ Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I
 - [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but not my about me as you will still be able to reach everywhere on my site without the use of this. On smaller viewports the navbar uses bootstraps collapse plugin. 
 - [x] Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
 - [x] Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
+- [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.
 
 ### Features Left to Implement
 - [ ] I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
