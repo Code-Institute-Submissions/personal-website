@@ -11,8 +11,6 @@ Click the image below to view my Live Portfolio.
          <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
       </a>
 
-![alt text]()
-
 ## Table of contents
    * [Demo](#demo)
    * [UX](#ux)
@@ -71,7 +69,7 @@ Collaborators can quickly view any Current and past projects, they can also link
 I wanted my site to have a minimilistic feel, using one background image on each page to create consistency throughout the portfolio. I have also used the background to select the colour palette for my portfolio, I used the colours for my fonts, icons, etc.
 
 <p align="right">
-  <a href="#table-of-contents">Back to Top :arrow_heading_up:</a> 
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Features
@@ -88,7 +86,7 @@ Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I
 - [ ] I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
 
 <p align="right">
-  <a href="#table-of-contents">Back to Top :arrow_heading_up:</a> 
+  <a href="#tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Technologies Used
@@ -108,7 +106,7 @@ Here is a list of the Technologies i have used throughout my Portfolio.
     - Font Awesome was used for all of my icons.
     
 <p align="right">
-  <a href="#table-of-contents">Back to Top :arrow_heading_up:</a> 
+  <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>
 
 ## Testing
@@ -131,7 +129,7 @@ You should also mention in this section any interesting bugs or problems you dis
 During my Testing I noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon.
 
 <p align="right">
-  <a href="#table-of-contents">Back to Top :arrow_heading_up:</a> 
+  <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p> 
 
 ## Deployment
@@ -141,7 +139,7 @@ The site will update on all new commits to the master branch. I use `git commit`
 You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal.
 
 <p align="right">
-  <a href="#table-of-contents">Back to Top :arrow_heading_up:</a> 
+  <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p> 
 
 ## Credits
@@ -165,5 +163,5 @@ i also put my own CSS within the file so i could add more colours as i needed mo
 - Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
 
 <p align="right">
-  <a href="#table-of-contents">Back to Top :arrow_heading_up:</a> 
+  <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p>

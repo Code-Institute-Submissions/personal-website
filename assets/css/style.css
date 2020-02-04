@@ -339,6 +339,22 @@ h1, h2, h3 {
     .main-timeline .timeline-year:after{ width: 100%; }
 }
 
+/* ------------------------------------------------------------------ PORTFOLIO */
+
+.card {
+    background-color: #3E3F3A;
+    padding: 10px;
+    color: #EEEBE8;
+}
+.card a {
+    color:#EEEBE8;
+}
+
+.card-tech {
+    height:50px;
+    padding-top:10px;
+}
+
 /* ------------------------------------------------------------------ FOOTER */
 .footer-bg {
     background-color:#3E3F3A;
