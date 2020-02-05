@@ -16,12 +16,7 @@ body {
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 	overflow-x: hidden;
-}
-
-h1,
-h2,
-h3 {
-	padding: 30px 0;
+    position: relative;
 }
 
 .background {
@@ -49,65 +44,34 @@ h3 {
 .card-img-overlay {
 	position: relative;
 }
+/* ---------------------------------------------------------------Section Heeadings */
+h1, h2, h3 {
+	padding: 30px 0;
+    font-weight:700;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Titillium", sans-serif;
+}
+.landing-body h1, h2 {
+	padding: 0;
+}
 
-
-/* ----------------------------------------------------------------- SCROLLBAR STYLE */
-
-
-/* width */
-
-::-webkit-scrollbar {
-	width: 10px;
+.about-me h2 {
+	padding-top: 0;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+.history-bg h2,
+.skills-bg h2 {
+    padding: 20px 0;
+    font-size: 2.5rem;
+}
+.skills-bg h3 {
+    font-size: 1.8rem;
 }
 
 
-/* Track */
 
-::-webkit-scrollbar-track {
-	background: #f1f1f1;
-}
-
-
-/* Handle */
-
-::-webkit-scrollbar-thumb {
-	background: #3e3f3a;
-}
-
-
-/* Handle on hover */
-
-::-webkit-scrollbar-thumb:hover {
-	background: #555;
-}
-
-
-/*--------------------------------------------------------------------- SOCIAL SIDE LINKS */
-
-.social-fixed-side {
-	position: fixed;
-	right: 0;
-	top: 35vh;
-	z-index: 1;
-}
-
-.social-item {
-	/*also used on footer*/
-	font-size: 2rem;
-	height: 35px;
-}
-
-.social-link {
-	color: #3e3f3a;
-}
-
-.social-link:hover {
-	color: #797062;
-}
-
-.downlink {
-	width: 100%;
-}
 
 
 /*--------------------------------------------------------------------------- NAVBAR */
@@ -115,7 +79,7 @@ h3 {
 .navbar {
 	width: 100%;
 	-webkit-backdrop-filter: blur(25px);
-	backdrop-filter: blur(25px);
+    backdrop-filter: blur(10px);
 	z-index: 1;
 }
 
@@ -124,10 +88,6 @@ h3 {
 	right: 0;
 	z-index: 1;
 	margin-right: 10px;
-}
-
-.navbar-collapse::after {
-	filter: blur()
 }
 
 .btn-success {
@@ -193,11 +153,6 @@ h3 {
 
 /* ----------------------------------------------------------------- LANDING */
 
-.landing-body h1,
-h2 {
-	padding: 0;
-}
-
 .landing-body {
 	flex-grow: 1;
 	flex-shrink: 0;
@@ -233,11 +188,6 @@ h2 {
 	background-color: #cec2b9;
 	border-radius: 25px;
 }
-
-.about-me h1 {
-	padding-top: 0;
-}
-
 
 /* ---------------------------------------------------------------- SKILLS / EXPERIENCE */
 
@@ -507,6 +457,66 @@ label {
 	height: 25px;
 }
 
+/* ----------------------------------------------------------------- SCROLLBAR STYLE */
+
+
+/* width */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	background: #3e3f3a;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+
+/*--------------------------------------------------------------------- SOCIAL SIDE LINKS */
+
+.social-fixed-side {
+	position: fixed;
+	right: 0;
+	top: 35vh;
+	z-index: 1;
+}
+
+.social-item {
+	/*also used on footer*/
+	font-size: 2rem;
+	height: 35px;
+}
+
+.social-link {
+	color: #3e3f3a;
+}
+
+.social-link:hover {
+	color: #797062;
+}
+
+.downlink {
+	width: 100%;
+}
+
+
+
 
 /* -------------------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
 
@@ -535,7 +545,6 @@ label {
 	.landing-body h3 {
 		font-size: 2rem;
 	}
-	.headshot {}
 	.more-btn {
 		font-size: 2rem;
 	}
@@ -557,6 +566,7 @@ label {
 	.navbar {
 		position: absolute;
 	}
+
 	.landing-body {
 		padding-top: 100px;
 	}
@@ -603,4 +613,5 @@ label {
 		display: none;
 	}
 }
+
 

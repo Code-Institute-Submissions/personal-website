@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/8c483914fb.js" crossorigin="anonymous"></script>
     
     <title>Tom Jones | Full Stack Developer</title>
-    <noscript>                              <!----Navbar No Js Fallback---->
+    <noscript>                              <!--- Navbar No Js Fallback -->
         <style>
             .collapse:not(.show) {
                 display:inline;
@@ -35,11 +35,11 @@
             }
         </style>
                               
-    </noscript>                             <!----Navbar No Js Fallback---->
+    </noscript>                             <!--- Navbar No Js Fallback  -->
 </head>
 
 <body>
-    <!-------------SOCIAL SIDE BAR -------------->
+    <!---  SOCIAL SIDE BAR -->
     <div class="social-fixed-side">
         <div class="social-item">
             <a href="https://en-gb.facebook.com/" class="hvr-push social-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -58,7 +58,7 @@
         </div>
 
     </div>
-    <!-------------MODAL FORM-------------------->
+    <!--- MODAL FORM -->
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -72,7 +72,7 @@
                     <div class="container-fluid">
                         <h6>Want to hire me? Collaborate? Or just talk??</h6>
 
-                        <form class="contact-form" action="mailto:kushberrycream@hotmail.com?subject=Portfolio Contact Form" method="post" enctype="text/plain">
+                        <form class="contact-form" action="mailto:kushberrycream@hotmail.com?subject=Portfolio-Contact-Form" method="post" enctype="text/plain">
                             <div class="controls">
                                 <div class="row no-gutters">
 
@@ -110,7 +110,7 @@
                                 <div class="row no-gutters">
                                     <div class="col">
                                         <div class="form-group input-wrap">
-                                            <label class="label-name" for="form_message">Message*</label>
+                                            <label class="label-name" for="message">Message*</label>
                                             <textarea id="message" name="message" class="input form-control" placeholder="Leave me a quick message and i will try get back as quick as possible*" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                                             <span class="focus-input"></span>
                                             <div class="help-block with-errors"></div>
@@ -163,23 +163,32 @@
             </div>
         </div>
     </div>
-    <!-------------MORE BUTTON ------------------>
+    <!--- MORE BUTTON -->
     <div class="downlink">
         <a href="#about-me" class="text-center more-btn hvr-icon-down">Want To Know More?? <br>
 			<i class="fas fa-arrow-circle-down hvr-icon"></i></a>
     </div>
-    <!------------ MAIN CONTENT ----------------->
+    <!--- MAIN CONTENT -->
 
     <div class="background">
-
+        
         <nav class="navbar navbar-light navbar-expand-sm container-md text-center">
             
-            <a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Software Developer</a>
+            <a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Developer</a>
 
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto text-left">
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#history">History</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="assets/documents/cv.pdf" target="_blank">CV</a>
@@ -213,7 +222,7 @@
         <section id="about-me" class="about-me container-md text-center">
             <div class="row">
                 <div class="col">
-                    <h1 class="">About Me!</h1>
+                    <h2>About Me!</h2>
                     <p class="">I am a career changing coder! I am currently taking a Level 5 Diploma in Software Development with the Code Institute! I pride myself on clean and elegant code which helps me keep focused on creating a user-friendly experience. I'm Enthusatic, Curious, Hard-working and always looking to improve upon myself with every task. I'm orignally from the Courier Industry where i have spent the last 11 years. My most recent role was Operations Supervisor where I took control of 20+ Drivers and 1500 parcels daily.
                         <br> I like to take hard earned breaks with long country walks, travelling, looking after my many Tarantulas and repairing my classic Volkswagen!
                     </p>
@@ -221,11 +230,11 @@
             </div>
         </section>
 
-        <section class="skills-bg container-md">
+        <section id="skills" class="skills-bg container-md">
 
             <div class="row no-gutters">
                 <div class="col text-center">
-                    <h1 class="">Skills</h1>
+                    <h2>Skills</h2>
 
                 </div>
 
@@ -249,7 +258,7 @@
 
                 </div>
                 <div class="col-md-6 text-center">
-                    <h3 class="">Back End</h3>
+                    <h3>Back End</h3>
                     <p>I currently have no experience with Back End Development but that will soon change! I will gain knowledge in multiple in demand languages such as Python, Ruby and PHP whilst also utilising frameworks such as Django. I will also learn how to use MongoDB and mySQL to process and present information.
                     </p>
                 </div>
@@ -330,12 +339,12 @@
                 </div>
             </div>
         </section>
-    </div>
-    <div class="history-bg">
+    
+    <div id="history" class="history-bg">
         <div class="container-md">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>Work History</h1>
+                    <h2>Work History</h2>
                 </div>
             </div>
             <div class="row">
@@ -456,7 +465,173 @@
             </div>
         </div>
     </div>
-    <!------------FOOTER------------------------->
+        <section id="portfolio" class="container-md text-center pb-5">
+            <div class="row">
+                <div class="col-lg-6 p-4">
+                    <div class="card h-100">
+                        <img src="assets/images/ucdresume.png" class="card-img" alt="ucdresume">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">UCD Resume - Responsive HTML/CSS Lesson</h5>
+                            <p class="card-text">I created this page for a lesson within the code institute course.
+                                <br> I learnt how to use Bootstrap Grid System to make responsive websites</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://pngimage.net/wp-content/uploads/2018/06/html-logo-png-2.png" alt="html">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn.freebiesupply.com/logos/thumbs/2x/bootstrap-4-logo.png" alt="bootstrap">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a class="col-6" href="https://github.com/kushberrycream/ucd-resume" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                                <a class="col-6" href="https://kushberrycream.github.io/ucd-resume/" target="_blank"><i class="fas fa-desktop"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-4">
+                    <div class="card h-100">
+                        <img src="assets/images/whiskey.png" class="card-img" alt="whiskeydrop">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">WhiskeyDrop - Bootstrap 4 Framework Lesson</h5>
+                            <p class="card-text">I created this page for a lesson within the code institute course.
+                                <br> I learnt how to utilise Bootstrap within my HTML and CSS.</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://pngimage.net/wp-content/uploads/2018/06/html-logo-png-2.png" alt="html">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn.freebiesupply.com/logos/thumbs/2x/bootstrap-4-logo.png" alt="bootstrap">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a class="col-6" href="https://github.com/kushberrycream/bootstrap4" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                                <a class="col-6" href="https://kushberrycream.github.io/bootstrap4/" target="_blank"><i class="fas fa-desktop"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-4">
+                    <div class="card h-100">
+                        <img src="assets/images/bootstrap.png" class="card-img" alt="bootstrap">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Bootstrap Website and Github Repo</h5>
+                            <p class="card-text">......</p>
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="card-tech" src="https://pngimage.net/wp-content/uploads/2018/06/html-logo-png-2.png" alt="html">
+                                </div>
+                                <div class="col-3">
+                                    <img class="card-tech" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css">
+                                </div>
+                                <div class="col-3">
+                                    <img class="card-tech" src="https://cdn.freebiesupply.com/logos/thumbs/2x/bootstrap-4-logo.png" alt="bootsrap">
+                                </div>
+                                <div class="col-3">
+                                    <img class="card-tech" src="https://images.vexels.com/media/users/3/166403/isolated/preview/a5a33bf3004830a2bd581e9fa65de660-javascript-programming-language-icon-by-vexels.png" alt="javascript">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a class="col-6" href="https://github.com/twbs/bootstrap" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                                <a class="col-6" href="https://getbootstrap.com/" target="_blank"><i class="fas fa-desktop"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-4">
+                    <div class="card h-100">
+                        <img src="assets/images/microsoft.png" class="card-img" alt="microsoft">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Microsoft Opensource Libaries</h5>
+                            <p class="card-text">......</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="card-tech" src="https://pngimage.net/wp-content/uploads/2018/06/html-logo-png-2.png" alt="html">
+                                </div>
+                                <div class="col-6">
+                                    <img class="card-tech" src="https://i.ya-webdesign.com/images/ruby-transparent-rail-logo-11.png" alt="ruby">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a class="col-6" href="https://github.com/microsoft/microsoft.github.io" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                                <a class="col-6" href="https://opensource.microsoft.com/" target="_blank"><i class="fas fa-desktop"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-4">
+                    <div class="card h-100">
+                        <img src="assets/images/netflix.png" class="card-img" alt="netflix">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Netflix Opensource Libaries</h5>
+                            <p class="card-text">......</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://pngimage.net/wp-content/uploads/2018/06/html-logo-png-2.png" alt="html">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://images.vexels.com/media/users/3/166403/isolated/preview/a5a33bf3004830a2bd581e9fa65de660-javascript-programming-language-icon-by-vexels.png" alt="javascript">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a class="col-6" href="https://github.com/Netflix/netflix.github.com" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                                <a class="col-6" href="https://netflix.github.io/" target="_blank"><i class="fas fa-desktop"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-4">
+                    <div class="card h-100">
+                        <img src="assets/images/react.png" class="card-img" alt="reactjs">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Facebook React JS Libary</h5>
+                            <p class="card-text">......</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://pngimage.net/wp-content/uploads/2018/06/html-logo-png-2.png" alt="html">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="css">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://images.vexels.com/media/users/3/166403/isolated/preview/a5a33bf3004830a2bd581e9fa65de660-javascript-programming-language-icon-by-vexels.png" alt="javascript">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://onion.io/wp-content/uploads/2017/09/cpp_logo.png" alt="c++">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://cdn.iconscout.com/icon/free/png-512/typescript-1174965.png" alt="typescript">
+                                </div>
+                                <div class="col-4">
+                                    <img class="card-tech" src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/03/1427207179CoffeeScriptLogo.png" alt="coffeescript">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <a class="col-6" href="https://github.com/facebook/react" target="_blank"><i class="fas fa-code"></i> View Code</a>
+                                <a class="col-6" href="https://reactjs.org/" target="_blank"><i class="fas fa-desktop"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--- FOOTER  -->
 
     <footer class="footer-bg text-center">
         <div class="container-md">

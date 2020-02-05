@@ -1,8 +1,69 @@
 # Tom Jones Personal Portfolio - First Milestone Project
 **Stream One Project: User-Centric Frontend Development - Code Institute**
 
-This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
-Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.
+<style>
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+    position: absolute;
+    right: 10px;
+}
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+.intro-container {
+    width: 50%;
+}
+</style>
+
+<div id="toc_container">
+    <p class="toc_title">Contents</p>
+    <ul class="toc_list">
+        <li><a href="#tom-jones-personal-portfolio---first-milestone-project">1 Introduction</a></li>
+        <li><a href="#demo">2 Demo</a></li>
+        <li><a href="#ux">3 UX</a></li>
+            <ul>
+                <li><a href="#strategy">3.1 Strategy</a></li>
+                <li><a href="#scope">3.2 Scope</a></li>
+                <li><a href="#structure">3.3 Structure</a></li>
+                <li><a href="#skeleton">3.4 Skeleton</a></li>
+                <li><a href="#features">3.5 Features</a></li>
+            </ul>
+        </li>
+        <li><a href="#features">4 Features</a>
+            <ul>
+                <li><a href="#existing-features">4.1 Existing Features</a></li>
+                <li><a href="#features-left-to-implement">4.2 Features Left to Implement</a></li>
+            </ul>
+        </li>
+        <li><a href="#technologies-used">5 Technologies Used</a></li>
+        <li><a href="#Testing">6 Testing</a></li>
+        <li><a href="#deployment">7 Deployment</a></li>
+        <li><a href="#credits">8 Credits</a>
+            <ul>
+                <li><a href="#content">8.1 Content</a></li>
+                <li><a href="#media">8.2 Media</a></li>
+                <li><a href="#acknowledgements">8.3 Acknowledgments</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+## Introduction
+<div class="intro-container">
+<p>This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
+Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.</p>
+</div>
 
 ## Demo
 Click the image below to view my Live Portfolio.
@@ -10,25 +71,6 @@ Click the image below to view my Live Portfolio.
 <a href="https://kushberrycream.github.io/personal-website/">
          <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
       </a>
-
-## Table of contents
-   * [Demo](#demo)
-   * [UX](#ux)
-     * [Strategy](#strategy)
-     * [Scope](#scope)
-     * [Structure](#structure)
-     * [Skeleton](#skeleton)
-     * [Surface](#surface)
-   * [Features](#features)
-     * [Existing Features](#existing-features)
-     * [Features Left to Implement](#features-left-to-implement)
-   * [Technologies Used](#technologies-used)
-   * [Testing](#testing)
-   * [Deployment](#deployment)
-   * [Credits](#credits)
-     * [Content](#content)
-     * [Media](#media)
-     * [Acknowledgments](#acknowledgements)
 
 ## UX  
 ### Strategy
@@ -140,6 +182,8 @@ The site will update on all new commits to the master branch. I use `git commit`
 
 You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal.
 
+As you may notice i have displayed my portfolio after my work history I felt the single page design was more user friendly as you dont need to divert from the main page.
+
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
 </p> 
@@ -163,6 +207,7 @@ All the content has been written by myself, except the CV which was created usin
 i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
 - The timeline was sourced from [Best jQuery](https://bestjquery.com/tutorial/timeline/demo50/)
 - Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
+- For the scrollbar styling I used this tutorial from [W3schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
