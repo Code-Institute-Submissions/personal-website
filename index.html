@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/circle.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <script src="https://kit.fontawesome.com/8c483914fb.js" crossorigin="anonymous"></script>
+   
     
     <title>Tom Jones | Full Stack Developer</title>
     <noscript>                              <!--- Navbar No Js Fallback -->
@@ -36,6 +37,20 @@
         </style>
                               
     </noscript>                             <!--- Navbar No Js Fallback  -->
+    <script>
+$('a[href^="#"]').on('click', function(event) {
+
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 4000);
+    }
+
+});
+</script>
 </head>
 
 <body>
@@ -465,7 +480,14 @@
             </div>
         </div>
     </div>
-        <section id="portfolio" class="container-md text-center pb-5">
+        <section id="portfolio" class="portfolio-bg container-md text-center pb-5">
+        <div class="row no-gutters">
+                <div class="col text-center">
+                    <h2>Portfolio</h2>
+
+                </div>
+
+            </div>
             <div class="row">
                 <div class="col-lg-6 p-4">
                     <div class="card h-100">

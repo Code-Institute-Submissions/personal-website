@@ -15,9 +15,9 @@ Click the image below to view my Live Portfolio.
          <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
       </a>
 
-<div style=" background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 20px; width: auto;">
-    <p style="font-weight: 700; color: #000; text-align: center;">Contents</p>
-    <ul Style="list-style: outside none none !important;">
+## Contents
+<div id="toc_container">
+    <ul class="toc_list">
         <li><a href="#tom-jones-personal-portfolio---first-milestone-project">1 Introduction</a></li>
         <li><a href="#demo">2 Demo</a></li>
         <li><a href="#ux">3 UX</a></li>
