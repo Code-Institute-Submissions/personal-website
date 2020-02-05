@@ -1,34 +1,23 @@
 # Tom Jones Personal Portfolio - First Milestone Project
 **Stream One Project: User-Centric Frontend Development - Code Institute**
 
-<style>
-#toc_container {
-    background: #f9f9f9 none repeat scroll 0 0;
-    border: 1px solid #aaa;
-    display: table;
-    font-size: 95%;
-    margin-bottom: 1em;
-    padding: 20px;
-    width: auto;
-    position: absolute;
-    right: 10px;
-}
-.toc_title {
-    font-weight: 700;
-    text-align: center;
-    color: #000;
-}
-#toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
-}
-.intro-container {
-    width: 50%;
-}
-</style>
+## Introduction
+<div class="intro-container">
+<p>This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
+Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.</p>
+</div>
 
-<div id="toc_container">
-    <p class="toc_title">Contents</p>
-    <ul class="toc_list">
+## Demo
+Click the image below to view my Live Portfolio.
+
+
+<a href="https://kushberrycream.github.io/personal-website/">
+         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
+      </a>
+
+<div style=" background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #aaa; display: table; font-size: 95%; margin-bottom: 1em; padding: 20px; width: auto;">
+    <p style="font-weight: 700; color: #000; text-align: center;">Contents</p>
+    <ul Style="list-style: outside none none !important;">
         <li><a href="#tom-jones-personal-portfolio---first-milestone-project">1 Introduction</a></li>
         <li><a href="#demo">2 Demo</a></li>
         <li><a href="#ux">3 UX</a></li>
@@ -58,19 +47,6 @@
         </li>
     </ul>
 </div>
-
-## Introduction
-<div class="intro-container">
-<p>This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
-Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.</p>
-</div>
-
-## Demo
-Click the image below to view my Live Portfolio.
-
-<a href="https://kushberrycream.github.io/personal-website/">
-         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
-      </a>
 
 ## UX  
 ### Strategy
