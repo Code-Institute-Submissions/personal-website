@@ -21,6 +21,7 @@ body {
     
 }
 
+
 .background {
 	background: url("../images/unsplash.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -51,7 +52,7 @@ h1, h2, h3 {
 	padding: 30px 0;
     font-weight:700;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, span {
     font-family: "Titillium", sans-serif;
 }
 .landing-body h1, h2 {
@@ -76,10 +77,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0;
     font-size: 2.5rem;
 }
-
-
-
-
 
 /*--------------------------------------------------------------------------- NAVBAR */
 
@@ -163,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
 .landing-body {
 	flex-grow: 1;
 	flex-shrink: 0;
-	padding: 4rem 1.5rem;
 	height: 100vh;
 }
 
@@ -194,6 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 150px;
 	background-color: #cec2b9;
 	border-radius: 25px;
+    margin-top: 40px;
 }
 
 /* ---------------------------------------------------------------- SKILLS / EXPERIENCE */
@@ -211,6 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(238, 235, 232, .7);
 	border-radius: 25px;
 	padding-bottom: 40px;
+    margin-top: 40px;
 }
 
 .version-control {
@@ -224,12 +222,10 @@ h1, h2, h3, h4, h5, h6 {
 .history-bg {
 	background-color: #C2B7A7;
 	padding-bottom: 40px;
+    margin-top: 40px;
 }
 
-
-/* -------------------------------------------------------------- TIMELINE */
-
-.main-timeline:after {
+.main-timeline:after {                                     /* ------------------- TIMELINE */
 	content: '';
 	display: block;
 	clear: both;
@@ -342,7 +338,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* ------------------------------------------------------------------ PORTFOLIO */
-
+.portfolio-bg {
+    margin-top: 40px;
+}
 .card {
 	background-color: #3E3F3A;
 	padding: 10px;
@@ -369,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #3E3F3A;
 	color: #797062;
 	padding: 20px;
-        letter-spacing: 1px;
+    letter-spacing: 0.09rem;
 }
 
 footer .social-link {
@@ -384,7 +382,7 @@ footer .social-link {
 
 .footer-content {
 	padding: 10px;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .footer-content li {
@@ -402,7 +400,9 @@ footer .social-link {
 footer h6 a i {
 	color: #797062;
 }
-
+.copyright {
+    padding-top: 20px;
+}
 .btn-primary {
 	color: #797062;
 	border-radius: 25px;
@@ -517,11 +517,11 @@ label {
 }
 
 .social-link {
-	color: #3e3f3a;
+	color: #797062;
 }
 
 .social-link:hover {
-	color: #797062;
+	color: #C2B7A7;
 }
 
 .downlink {
@@ -563,25 +563,29 @@ label {
 	}
 }
 
-@media (min-width: 770px) and (min-height: 500px) {
+@media (min-width: 1100px) and (min-height: 500px) {
 	.landing-body {
 		padding: 220px;
 	}
 }
 
-@media (max-width: 770px) {
+@media (max-width: 900px) {
+     .landing-body {
+		padding: 150px 100px;
+	}
 	.about-me {
 		padding: 100px;
 	}
+    
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
 	.navbar {
 		position: absolute;
 	}
 
 	.landing-body {
-		padding-top: 100px;
+		padding: 100px 0 0 0;
 	}
 	.landing-body h1 {
 		font-size: 2rem;
@@ -625,6 +629,9 @@ label {
 	.headshot {
 		display: none;
 	}
+    .landing-body {
+		padding: 0;
+    }
 }
 
 

@@ -16,8 +16,8 @@ Click the image below to view my Live Portfolio.
       </a>
 
 ## Contents
-<div id="toc_container">
-    <ul class="toc_list">
+<div>
+    <ul>
         <li><a href="#tom-jones-personal-portfolio---first-milestone-project">1 Introduction</a></li>
         <li><a href="#demo">2 Demo</a></li>
         <li><a href="#ux">3 UX</a></li>
@@ -102,7 +102,6 @@ On smaller viewports the navbar uses bootstraps collapse plugin. I made a `<nosc
 - [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.
 
 ### Features Left to Implement
-- [ ] I need to be able to have my contact form send directly from the form instead of using the mailto: link as this defeats the object of the form.
 - [ ] I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
 
 <p align="right">
@@ -124,6 +123,9 @@ Here is a list of the Technologies i have used throughout my Portfolio.
     edited them to fit my needs.
 - [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used for all of my icons.
+- [Formspree](https://formspree.io/)
+    - I was able to use Formspree to deal with the backend side of my contact form. I Signed up for a free account, set up a form, then used the attribute `action` 
+    and my formspree URL to direct the form through Formspree. I used Formspree as this was a good option for my current skillset.
     
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 

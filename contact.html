@@ -55,19 +55,28 @@
     </div>
     <div class="heading-background">
         <nav class="navbar navbar-light navbar-expand-sm container-lg text-center">
-
-            <a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Software Developer</a>
+            
+            <a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Developer</a>
 
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto text-left">
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#history">History</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="assets/documents/cv.pdf" target="_blank">CV</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <span class="message-btn"><a href="contact.html" class="nav-link1 btn btn-success" data-toggle="modal" data-target="#staticBackdrop" data-remote="false">Say Hi! <i class="far fa-paper-plane"></i></a></span>
                     </li>
                 </ul>
             </div>
@@ -75,7 +84,7 @@
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
         </nav>
         <div class="text-center heading">
             <h1>Want To Collaborate, Hire Me Or Just Talk?</h1>
@@ -83,67 +92,62 @@
     </div>
     <section class="container experience-bg">
         <h3>Send Me A Message!</h3>
-            <form class="contact-form" action="mailto:kushberrycream@hotmail.com?subject=Portfolio-Contact-Form" method="post" enctype="text/plain">
-                <div class="controls">
-                    <div class="row no-gutters">
+            <form class="contact-form" action="https://formspree.io/xeqgrylz" target="_top" method="POST">
+                            <div class="controls">
+                                <div class="row no-gutters">
 
-                        <div class="col-sm-12 col-md-6">
-                            <div class="form-group input-wrap">
-                                <label class="label-name has-float-label" for="name">First Name*</label>
-                                <input id="name" type="text" name="name" class="input form-control" required="required" data-error="Firstname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="form-group input-wrap">
-                                <label class="label-name" for="lastname">Last Name*</label>
-                                <input id="lastname" type="text" name="surname" class="input form-control" required="required" data-error="Lastname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-sm-12 col-md-6">
-                            <div class="form-group input-wrap">
-                                <label class="label-name" for="email">Email*</label>
-                                <input id="email" type="email" name="email" class="input form-control" required="required" data-error="Valid email is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="form-group input-wrap">
-                                <label class="label-name" for="phone">Phone</label>
-                                <input id="phone" type="tel" name="phone" class="input form-control">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col">
-                            <div class="form-group input-wrap">
-                                <label class="label-name" for="message">Message*</label>
-                                <textarea id="message" name="message" class="input form-control" placeholder="Leave me a quick message and i will try get back as quick as possible*" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                <span class="focus-input"></span>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group input-wrap">
+                                            <label class="label-name">First Name*</label>
+                                            <input type="text"  class="input form-control" required="required" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group input-wrap">
+                                            <label class="label-name">Last Name*</label>
+                                            <input type="text" class="input form-control" required="required" name="surname">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group input-wrap">
+                                            <label class="label-name">Email*</label>
+                                            <input type="email" class="input form-control" required="required" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group input-wrap">
+                                            <label class="label-name">Phone</label>
+                                            <input type="tel" class="input form-control" name="phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col">
+                                        <div class="form-group input-wrap">
+                                            <label class="label-name">Message*</label>
+                                            <textarea id="message" class="input form-control" placeholder="Leave me a quick message and i will try get back as quick as possible*" rows="4" required="required" name="message"></textarea>
+                                            <span class="focus-input"></span>
+                                        </div>
+                                    </div>
 
-                        <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send" value="Send message">
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-12">
-                            <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                        </div>
-                    </div>
-                </div>
-            </form>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-md-12">
+                                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
 
     </section>
 
     <footer class="footer-bg text-center">
-        <div class="container-fluid">
+        <div class="container-md">
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-heading">
@@ -198,10 +202,16 @@
                                 <a href="index.html" class="">Home</a>
                             </li>
                             <li class="">
-                                <a href="index.html#about-me" class="">About Me</a>
+                                <a href="#about-me" class="">About Me</a>
                             </li>
                             <li class="">
-                                <a href="portfolio.html" class="">Portfolio</a>
+                                <a href="#skills" class="">Skills</a>
+                            </li>
+                            <li class="">
+                                <a href="#history" class="">History</a>
+                            </li>
+                            <li class="">
+                                <a href="#portfolio" class="">Portfolio</a>
                             </li>
                         </ul>
                     </div>
