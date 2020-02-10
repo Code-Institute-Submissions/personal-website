@@ -23,19 +23,7 @@ body {
 
 
 .background {
-	background: url("../images/unsplash.jpg") no-repeat center center fixed;
-	background-size: cover;
-	position: relative;
-}
-
-.heading-background {
-	background: url("../images/unsplash.jpg") no-repeat center center fixed;
-	background-size: cover;
-	position: relative;
-}
-
-.portfolio-background {
-	background: url("../images/unsplash.jpg") no-repeat center center fixed;
+	background: url("../images/unsplash.jpg") no-repeat center right fixed;
 	background-size: cover;
 	position: relative;
 }
@@ -583,6 +571,11 @@ label {
 }
 
 @media (max-width: 575.98px) {
+    .background {
+	background: url("../images/unsplashsmall.png") no-repeat center right fixed;
+	background-size: cover;
+	position: relative;
+}
 	.navbar {
 		position: absolute;
 	}
@@ -637,4 +630,27 @@ label {
     }
 }
 
+.controls {
+    position: relative;
+}
 
+input[type="tel"] {
+  width: 100px;
+}
+
+input + span {
+  padding-right: 30px;
+}
+
+input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+  color: #8b0000;
+}
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+  color: #009000;
+}
