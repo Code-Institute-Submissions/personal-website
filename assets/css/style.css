@@ -161,6 +161,7 @@ h1, h2, h3, h4, h5, h6, span {
 	flex-grow: 1;
 	flex-shrink: 0;
 	height: 100vh;
+    padding: 150px 100px;
 }
 
 .headshot {
@@ -346,6 +347,7 @@ h1, h2, h3, h4, h5, h6, span {
 	padding: 10px;
 	color: #EEEBE8;
     border-radius: 25px;
+    width: 95%;
 }
 
 .card a {
@@ -441,7 +443,8 @@ label {
 }
 
 .form-control:focus {
-	box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, .01);
+	box-shadow: none;
+    background-color: transparent;
 }
 
 .input-wrap {
@@ -571,7 +574,7 @@ label {
 
 @media (max-width: 900px) {
      .landing-body {
-		padding: 150px 100px;
+		padding: 100px;
 	}
 	.about-me {
 		padding: 100px;
@@ -631,6 +634,9 @@ label {
 	}
     .landing-body {
 		padding: 0;
+    }
+    .more-btn {
+        bottom: -10vh;
     }
 }
 

@@ -102,6 +102,7 @@ On smaller viewports the navbar uses bootstraps collapse plugin. I made a `<nosc
 - [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.
 
 ### Features Left to Implement
+
 - [ ] I plan to actually replace sample portfolio projects with my own projects instead of other github repositories i have found.
 
 <p align="right">
