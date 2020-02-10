@@ -69,7 +69,10 @@ Collaborators can quickly view any Current and past projects, they can also link
 
 ### Structure
 
--
+I will create a single page site so that navigation is simple, the only reason you may have to divert from the main page is to use the Contact form if Javascript has been disabled. 
+I will have multiple places to open my contact form, CV and social links so that you do not need to search for these. The navigation will be `fixed` on the top of larger screens but smaller screen it will be `absolute`
+as I dont want to waste space on smaller devices. I wanted to give a clear summary of all the current work I have done, to do this I will use bootstraps grid system and cards to responsively display a screenshot of the project, a short summary,
+icon of any technologies used, the Github Repo and finally a live Demo.  
 
 ### Skeleton
 [Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Landing%20.png)
