@@ -572,9 +572,10 @@ label {
 
 @media (max-width: 575.98px) {
     .background {
-	background: url("../images/rsz_unsplashhh2.png") no-repeat center right fixed;
+	background: url("../images/unsplashhh2.png") no-repeat center right scroll;
 	background-size: cover;
 	position: relative;
+    
 }
 	.navbar {
 		position: absolute;
