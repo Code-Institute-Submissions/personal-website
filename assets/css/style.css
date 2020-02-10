@@ -23,7 +23,7 @@ body {
 
 
 .background {
-	background: url("../images/unsplash.jpg") no-repeat center right fixed;
+	background: url("../images/unsplash.jpg") no-repeat center center fixed;
 	background-size: cover;
 	position: relative;
 }
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, span {
 	color: #eeebe8;
 	text-shadow: 0.1em 0.1em 0.1em #3E3F3A, 0 0 0.1em #3E3F3A, 0 0 0.1em #3E3F3A, 0 0 0.2em #3E3F3A, 0 0 0.2em #3E3F3A, 0 0 0.3em #3E3F3A;
 	position: absolute;
-	bottom: 10vh;
+	bottom: 5vh;
 	transform: translateY(-100%);
 	width: 100%;
 	z-index: 1;
@@ -572,7 +572,7 @@ label {
 
 @media (max-width: 575.98px) {
     .background {
-	background: url("../images/unsplashsmall.png") no-repeat center right fixed;
+	background: url("../images/unsplashhh2.png") no-repeat center right fixed;
 	background-size: cover;
 	position: relative;
 }
@@ -596,6 +596,9 @@ label {
 		padding: 25px;
 		border-radius: 0
 	}
+    .more-btn {
+        bottom: 20vh;
+    }
 	.skills-bg {
 		padding: 25px;
 		border-radius: 0
@@ -627,6 +630,9 @@ label {
 	}
     .landing-body {
 		padding: 0;
+    }
+    .more-btn {
+        bottom: 20vh;
     }
 }
 
