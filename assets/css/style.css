@@ -316,15 +316,6 @@ h1, h2, h3, h4, h5, h6, span {
 	margin: 0 auto;
 }
 
-@media screen and (max-width:767px) {
-	.main-timeline .timeline {
-		margin: 0 0 15px;
-	}
-	.main-timeline .timeline-year:after {
-		width: 100%;
-	}
-}
-
 
 /* ------------------------------------------------------------------ PORTFOLIO */
 .portfolio-bg {
@@ -631,4 +622,14 @@ label {
         bottom: 20vh;
     }
 }
+
+@media screen and (max-width:767px) {
+	.main-timeline .timeline {
+		margin: 0 0 15px;
+	}
+	.main-timeline .timeline-year:after {
+		width: 100%;
+	}
+}
+
 

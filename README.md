@@ -75,15 +75,13 @@ as I dont want to waste space on smaller devices. I wanted to give a clear summa
 icon of any technologies used, the Github Repo and finally a live Demo.  
 
 ### Skeleton
-[Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Landing%20.png)
+[Landing Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/landing.png)
 
-[About Me Section](https://github.com/kushberrycream/personal-website/blob/master/wireframes/About%20Me.png)
+[About, Skills, History and Portfolio Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/singlepage-portfolio.png)
 
-[Portfolio Page](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Portfolio.png)
+[Contact Modal](https://github.com/kushberrycream/personal-website/blob/master/wireframes/contact-modal.png)
 
-[Contact Modal](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Contact%20Modal.png)
-
-[Contact Js Fallback](https://github.com/kushberrycream/personal-website/blob/master/wireframes/Contact%20js%20Fallback.png)
+[Contact Js Fallback](https://github.com/kushberrycream/personal-website/blob/master/wireframes/contact-js-fallback.png)
 
 ### Surface
 
