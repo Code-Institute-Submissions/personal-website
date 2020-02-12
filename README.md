@@ -12,7 +12,7 @@ Click the image below to view my Live Portfolio.
 
 
 <a href="https://kushberrycream.github.io/personal-website/">
-         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
+         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.jpg?raw=true">
       </a>
 
 ## Contents
@@ -57,7 +57,7 @@ The main goal of my portfolio will be to give all the essential information in a
 | ------ | ------ |
 | Employers | As an Employer I want to be able to access recent projects and also to be able to see a CV to get a more in depth view. |
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
-| Collaborators | As a Collaborator I want to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
+| Collaborators | As a Collaborator I wanavbarnt to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
 I want to give all users a quick overview of myself, my skills and experiences.
 
