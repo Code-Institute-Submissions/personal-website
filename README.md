@@ -162,7 +162,10 @@ During my Testing I noticed on real devices things may not display as Dev Tools 
 I have currently deployed my Portfolio on GitHub Pages using the master branch. It can be viewed on https://kushberrycream.github.io/personal-website/, this will eventually be accesible from my own domain. 
 The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send any changed to the master branch. 
 
-You can run this repository locally by pasting `git clone https://github.com/kushberrycream/personal-website.git` into your terminal.
+To deploy my site on GitHub Pages I firstly went to my setting in my Repository. I then scrolled down to "GitHub Pages" and using The Source Menu I then selected the master branch.
+
+To run this repository locally click "Clone or Download" at the top of this repository and copy the url to your clipboard. Next open up Terminal and select the location in which you wish to clone this directory and
+then type `git clone` and the url `https://github.com/kushberrycream/personal-website.git`. Press enter and you will have succesfully cloned this Repository.
 
 As you may notice i have displayed my portfolio after my work history I felt the single page design was more user friendly as you dont need to divert from the main page.
 
