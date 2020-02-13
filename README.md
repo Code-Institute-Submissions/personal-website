@@ -4,7 +4,7 @@
 ## Introduction
 <div class="intro-container">
 <p>This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
-Currently this page only shows a couple lessons i have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.</p>
+Currently this page only shows a couple lessons I have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.</p>
 </div>
 
 ## Demo
@@ -50,7 +50,7 @@ Click the image below to view my Live Portfolio.
 
 ## UX  
 ### Strategy
-The main goal of my portfolio will be to give all the essential information in a ledgable and easily accesible manner to all users. I aim to keep the design minimilstic to give a good user experience.
+The main goal of my portfolio is to give all the essential information in a ledgable and easily accesible manner to all users. I have aimed to keep the design minimilstic to give a good user experience.
 
 ### Scope
 | User | User Stories |
@@ -59,7 +59,7 @@ The main goal of my portfolio will be to give all the essential information in a
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
 | Collaborators | As a Collaborator I wanavbarnt to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
-I want to give all users a quick overview of myself, my skills and experiences.
+I wanted to give all users a quick overview of myself, my skills and experiences.
 
 Employers are able to easily obtain an up to date CV from multiple locations on the site. They can see any recent projects on my portfolio page if they like what they see they can contact me via the contact form.
 
@@ -69,9 +69,10 @@ Collaborators can quickly view any Current and past projects, they can also link
 
 ### Structure
 
-I will create a single page site so that navigation is simple, the only reason you may have to divert from the main page is to use the Contact form if Javascript has been disabled. 
-I will have multiple places to open my contact form, CV and social links so that you do not need to search for these. The navigation will be `fixed` on the top of larger screens but smaller screen it will be `absolute`
-as I dont want to waste space on smaller devices. I wanted to give a clear summary of all the current work I have done, to do this I will use bootstraps grid system and cards to responsively display a screenshot of the project, a short summary,
+I have created a single page site so that navigation is simple, the only reason you may have to divert from the main page is to use the Contact form if Javascript has been disabled. 
+I have multiple call to actions to open my contact form, CV and social links so no one should struggle to locate these . The navigation is `fixed` on the top of the viewport throughout the page 
+this way the users can easily skip between sections. A contact form will be accessed via a modal which will open up as a full sidebar once this is opened the main page will be unscrollable until the page is closed.
+I also wanted to give a clear summary of all the current work I have done, to do this I have used bootstraps grid system and cards to responsively display a screenshot of the project, a short summary,
 icon of any technologies used, the Github Repo and finally a live Demo.  
 
 ### Skeleton
@@ -93,11 +94,11 @@ I wanted my site to have a minimilistic feel, using one background image on each
 
 ## Features
 
-Most of the Feature within my Portfolio are using the Bootstrap CSS framework, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
+Most of the Features within my Portfolio are using the Bootstrap Front-end Component Libary, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
  
 ### Existing Features
 - [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but it is not fixed as you will still be able to reach everywhere on my site without the use of this. 
-On smaller viewports the navbar uses bootstraps collapse plugin. I made a `<noscript>` tag so i could add some styling to make the collapsed menu display on devices with Javascript disabled.
+  On smaller viewports the navbar uses bootstraps collapse plugin. I made a `<noscript>` tag so i could add some styling to make the collapsed menu display on devices with Javascript disabled.
 - [x] Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
 - [x] Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
 - [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.
@@ -121,8 +122,8 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
     - CSS gives my site its look and style 
 - [Bootstrap 4](https://getbootstrap.com/)
-    - I have implimented the Bootstrap CSS framework to create a responsive mobile-first website, I have used multiple standard components and
-    edited them to fit my needs.
+    - I have implimented the Bootstrap Front-end component libary to create a responsive mobile-first website, I have used multiple standard components and
+    edited them to fit my needs. I have also utilised jQuery and Bootstraps own Javascript plugins on some of the components.
 - [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used for all of my icons.
 - [Formspree](https://formspree.io/)
@@ -150,7 +151,11 @@ is an issue as the blur is only in place for mobile devices that need to use the
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-During my Testing I noticed on real devices things may not display as Dev Tools may let you believe. As on safari on iOS the address bar will push the page down and the bookmark bar will hide any content until you scroll. I have accounted for this but it could be improved apon.
+### Bugs
+- When closing the modal i noticed it was actually taking up the whole viewport which meant the animation when fading out was not displaying in the correct position. 
+  This happened because the modal was set to 100% the width of the viewport and the modal dialog was set to 60%. I corrected this by swapping the widths around and altering the positioning.
+- On real iOS devices I noticed a bug with the background, The background will display across the whole contents instead of the viewport this is obviously not desired as the background display incorrectly. 
+  At this moment I have not come up with a fix.
 
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
@@ -187,7 +192,8 @@ All the content has been written by myself, except the CV which was created usin
     - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
 - I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, 
-i also put my own CSS within the file so i could add more colours as i needed more than was actually provided.
+  I needed to add more color styles as I had a very small selection, Any code i have edited I have moved into my own CSS file `style.css` marked with a comment 
+  to let people know where the original code came from.
 - The timeline was sourced from [Best jQuery](https://bestjquery.com/tutorial/timeline/demo50/)
 - Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
 - For the scrollbar styling I used this tutorial from [W3schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
