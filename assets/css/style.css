@@ -25,7 +25,11 @@ body {
   background-size: cover;
   position: relative;
 }
-
+.heading-background {
+  background: url("../images/1unsplash.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 55%;
+}
 .heading {
   padding: 100px 10px;
 }
