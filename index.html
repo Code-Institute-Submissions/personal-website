@@ -70,13 +70,13 @@
               <form class="contact-form" action="https://formspree.io/xeqgrylz" target="_top" method="POST">
                 <div class="controls">
                   <div class="row no-gutters">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-md-12 col-lg-6">
                       <div class="form-group input-wrap">
                         <label class="label-name">First Name*</label>
                         <input type="text" class="input form-control" required="required" name="name">
                       </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-md-12 col-lg-6">
                       <div class="form-group input-wrap">
                         <label class="label-name">Last Name*</label>
                         <input type="text" class="input form-control" required="required" name="surname">
@@ -84,13 +84,13 @@
                     </div>
                   </div>
                   <div class="row no-gutters">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-md-12 col-lg-6">
                       <div class="form-group input-wrap">
                         <label class="label-name">Email*</label>
                         <input type="email" class="input form-control" required="required" name="email">
                       </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-md-12 col-lg-6">
                       <div class="form-group input-wrap">
                         <label class="label-name">Phone</label>
                         <input type="tel" class="input form-control" name="phone">
@@ -116,16 +116,16 @@
                   </div>
                 </div>
               </form>
+              <div class="modal-footer">
               <div class="row">
                 <div class="col-12">
-                  <div class="social-item mb-4 text-center">
+                  <div class="social-item mb-4">
                     <a href="https://en-gb.facebook.com/" class="hvr-push social-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://www.linkedin.com/in/tomjoneswebdev/" class="hvr-push social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/kushberrycream" class="hvr-push social-link" target="_blank"><i class="fab fa-github-square"></i></a>
                   </div>
                 </div>
               </div>
-              <div class="modal-footer">
               </div>
             </div>
           </div>
@@ -139,9 +139,11 @@
     </div>
     <!--- MAIN CONTENT -->
     <div class="background">
-      <nav class="navbar navbar-light navbar-expand-sm container-fluid text-center">
+      <nav class="navbar navbar-default navbar-light navbar-expand-sm container-fluid text-center">
         <div class="container-lg">
-          <a href="index.html" class="navbar-brand text-wrap"><strong>Tom Jones</strong> | Developer</a>
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/tomjones.png" width="150" class="d-inline-block" alt="">
+          </a>
           <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto text-left">
               <li class="nav-item mr-2">
@@ -173,8 +175,8 @@
         <div class="container-md">
           <div class="row">
             <div class="col-md-8">
-              <h1 class="">Tom Jones</h1>
-              <h2 class="">UK Based Junior Full Stack Software Developer.</h2>
+              <h1>Tom Jones</h1>
+              <h2>UK Based Junior Full Stack Software Developer.</h2>
             </div>
             <div class="col-md-4 text-center">
               <img class="headshot" src="https://i.pinimg.com/236x/09/b6/d2/09b6d243fb90b72b6f2a40fba4c303d1--tom-jones-amazing-people.jpg" alt="face">
@@ -186,7 +188,7 @@
         <div class="row">
           <div class="col">
             <h2>About Me!</h2>
-            <p class="">I am a career changing coder! I am currently taking a Level 5 Diploma in Software Development with the Code Institute! I pride myself on clean and elegant code which helps me keep focused on creating a user-friendly experience. I'm
+            <p>I am a career changing coder! I am currently taking a Level 5 Diploma in Software Development with the Code Institute! I pride myself on clean and elegant code which helps me keep focused on creating a user-friendly experience. I'm
               Enthusatic, Curious, Hard-working and always looking to improve upon myself with every task. I'm orignally from the Courier Industry where i have spent the last 11 years. My most recent role was Operations Supervisor where I took
               control of 20+ Drivers and 1500 parcels daily.
               <br> I like to take hard earned breaks with long country walks, travelling, looking after my many Tarantulas and repairing my classic Volkswagen!
@@ -194,7 +196,7 @@
           </div>
         </div>
       </section>
-      <section id="skills" class="skills-bg container-md">
+      <section id="skills" class="skills container-md">
         <div class="row no-gutters">
           <div class="col text-center">
             <h2>Skills</h2>
@@ -203,7 +205,7 @@
         <div class="row no-gutters">
           <div class="col-md-6 text-center">
             <h3>Front End</h3>
-            <p>I have a good understanding of HTML and CSS, I am able to utilise the Bootstrap framework to create a mobile-first design. As I progress through the course I will gain a experience and understand of Javascript and libaries such a jQuery
+            <p class="skills-p">I have a good understanding of HTML and CSS, I am able to utilise the Bootstrap framework to create a mobile-first design. As I progress through the course I will gain a experience and understand of Javascript and libaries such a jQuery
               and AngularJS. Once I have passed my course I will be able to fluently combine HTML, CSS and Js to design beautiful Web Applications combining User Interface Design and User Experience. 
             </p>
           </div>
@@ -217,7 +219,7 @@
           </div>
           <div class="col-md-6 text-center">
             <h3>Back End</h3>
-            <p>I currently have no experience with Back End Development but that will soon change! I will gain knowledge in multiple in demand languages such as Python, Ruby and PHP whilst also utilising frameworks such as Django. I will also learn
+            <p class="skills-p">I currently have no experience with Back End Development but that will soon change! I will gain knowledge in multiple in demand languages such as Python, Ruby and PHP whilst also utilising frameworks such as Django. I will also learn
               how to use MongoDB and mySQL to process and present information.
             </p>
           </div>
@@ -229,7 +231,7 @@
         <div class="row no-gutters text-center">
           <div class="col-12">
             <h3>Version Control</h3>
-            <p>I also have experience using git for version control, I use git to automatically commit changes to my Github repositories.</p>
+            <p class="skills-p">I also have experience using git for version control, I use git to automatically commit changes to my Github repositories.</p>
           </div>
           <div class="col-md-6">
             <img class="version-control" src="assets/images/gitlogo.png" alt="git">
@@ -243,8 +245,8 @@
             <h3>Current Experience</h3>
           </div>
         </div>
-        <div class="row no-gutters text-center">
-          <div class="col-6 col-sm-6 col-md-2">
+        <div class="row text-center">
+          <div class="col-6 col-sm-6 col-md-2 circle-spacing">
             <div class="c100 p75 center">
               <span>HTML</span>
               <div class="slice">
@@ -253,7 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3">
+          <div class="col-6 col-sm-6 col-md-3 circle-spacing">
             <div class="c100 p75 center green">
               <span>CSS</span>
               <div class="slice">
@@ -262,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-2">
+          <div class="col-6 col-md-2 circle-spacing">
             <div class="c100 p15 center red">
               <span>Js</span>
               <div class="slice">
@@ -272,7 +274,7 @@
             </div>
             <p><em>Javascript / JQuery</em></p>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-6 col-md-3 circle-spacing">
             <div class="c100 p15 center yellow">
               <span>Python</span>
               <div class="slice">
@@ -282,7 +284,7 @@
             </div>
             <p><em>Python / Django</em></p>
           </div>
-          <div class="col-sm-12 col-md-2">
+          <div class="col-sm-12 col-md-2 circle-spacing">
             <div class="c100 p15 center purple">
               <span>SQL</span>
               <div class="slice">
@@ -294,7 +296,7 @@
           </div>
         </div>
       </section>
-      <section id="history" class="history-bg">
+      <section id="history" class="history">
         <div class="container-md">
           <div class="row">
             <div class="col-12 text-center">
@@ -710,8 +712,10 @@
         </div>
       </div>
     </footer>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
