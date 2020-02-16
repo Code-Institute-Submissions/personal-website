@@ -3,7 +3,6 @@ html {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100vh;
   scroll-behavior: smooth;
 }
 
@@ -12,7 +11,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   color: #3E3F3A;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
@@ -25,19 +24,9 @@ body {
   background-size: cover;
   position: relative;
 }
-.heading-background {
-  background: url("../images/1unsplash.jpg") no-repeat center bottom;
-  background-size: cover;
-  height: 55%;
-}
-.heading {
-  padding: 100px 10px;
-}
-
 .card-img-overlay {
   position: relative;
 }
-
 
 /* ---------------------------------------------------------------Section Headings */
 
@@ -85,12 +74,11 @@ h3 {
 .navbar-default{
   transition:500ms ease;
   background:transparent;
-  box-shadow: 0 1px 3px rgba(0,0,0,.11);
+  box-shadow: 0 1px 3px rgba(0,0,0,.33);
 }
 .navbar-default.scrolled{
-  background:#cec2b9;
+  background:#eeebe8;
 }
-
 .navbar-toggler {
   position: absolute;
   right: 0;
@@ -98,11 +86,9 @@ h3 {
   z-index: 1;
   margin-right: 10px;
 }
-
 button:focus {
   outline: none;
 }
-
 .btn-success {
   color: #3E3F3A;
   border-color: #3e3f3a;
@@ -110,7 +96,6 @@ button:focus {
   border-radius: 25px;
   border-width: 3px;
 }
-
 .btn-success:not(:disabled):not(.disabled):active,
 .btn-success:focus,
 .btn-success:hover {
@@ -118,17 +103,14 @@ button:focus {
   border-color: #3e3f3a;
   background-color: #3e3f3a;
 }
-
 .btn-success:not(:disabled):not(.disabled):active:focus,
 .btn-success:focus {
   box-shadow: 0 0 0 0.2rem rgba(62, 63, 58, 0.5);
 }
-
 .message-btn {
   color: #3e3f3a;
   border-radius: 25px;
 }
-
 .nav-link:hover,
 .message-btn:hover {
   color: #eeebe8;
@@ -193,6 +175,7 @@ button:focus {
   padding-bottom: 30px;
 }
 .circle-spacing {
+    margin: 10px;
     padding: 20px;
 }
 
@@ -305,9 +288,9 @@ button:focus {
 }
 
 .card {
-  background-color: #3E3F3A;
+  background-color: #3e3f3a;
   padding: 10px;
-  color: #EEEBE8;
+  color: #eeebe8;
   border-radius: 25px;
   width: 95%;
 }
@@ -485,6 +468,25 @@ label {
 
 .input {
   height: 25px;
+}
+.heading-background {
+  background: url("../images/1unsplash.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 45vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.content-flex {
+    background: rgba(238, 235, 232, .7);
+    border-top: 2px solid #3e3f3a;
+    border-bottom: 2px solid #3e3f3a;
+    justify-content: center;
+    display: flex;
+    max-height: 200px;
+}
+.experience {
+    background-color: #eeebe8;
 }
 
 /* ----------------------------------------------------------------- SCROLLBAR STYLE */
@@ -697,3 +699,5 @@ label {
 .c100.yellow:hover>span {
   color: #b5ad3c;
 }
+
+
