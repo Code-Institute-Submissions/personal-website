@@ -133,6 +133,9 @@ button:focus {
     justify-content: center;
     display: flex;
 }
+.title-position {
+    padding: 100px 0 0 100px;
+}
 .headshot {
   border-radius: 200px;
   margin: 40px;
@@ -542,11 +545,6 @@ label {
   color: #C2B7A7;
 }
 
-.downlink {
-  width: 100%;
-}
-
-
 /* -------------------------------------------------- MEDIA QUERIES / RESPONSIVENESS */
 
 @media (min-width: 2000px) {
@@ -582,12 +580,15 @@ label {
   .landing-body h3 {
     font-size: 1rem;
   }
+  .title-position {
+    padding: 10px;
+}
   .about-me {
     padding: 25px;
     border-radius: 0
   }
-  .more-btn {
-    bottom: 30vh;
+  .btn-position {
+    top: 81vh;
   }
   .skills-bg {
     padding: 25px;
@@ -595,6 +596,7 @@ label {
   }
   .headshot {
     height: 200px;
+    margin: 0;
   }
   .contact-form {
     width: 100%;
@@ -612,11 +614,18 @@ label {
   body {
     flex-direction: row;
   }
+  .title-position {
+    padding: 10px;
+}
   .headshot {
     display: none;
   }
-  .more-btn {
-    bottom: 10vh;
+  .col-md-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .btn-position {
+    top: 75vh;
   }
 }
 
