@@ -133,23 +133,20 @@ button:focus {
     justify-content: center;
     display: flex;
 }
-
 .headshot {
   border-radius: 200px;
   margin: 40px;
 }
-
+.btn-position {
+  position: absolute;
+  top: 85vh;
+  z-index: 1;
+}
 .more-btn {
   font-size: 1.5rem;
   color: #eeebe8;
   text-shadow: 0.1em 0.1em 0.1em #3E3F3A, 0 0 0.1em #3E3F3A, 0 0 0.1em #3E3F3A, 0 0 0.2em #3E3F3A, 0 0 0.2em #3E3F3A, 0 0 0.3em #3E3F3A;
-  position: absolute;
-  top: 85vh;
-  transform: translateY(-100%);
-  width: 100%;
-  z-index: 1;
 }
-
 .more-btn:hover {
   text-decoration: none;
   color: #eeebe8;
@@ -590,7 +587,7 @@ label {
     border-radius: 0
   }
   .more-btn {
-    bottom: 20vh;
+    bottom: 30vh;
   }
   .skills-bg {
     padding: 25px;
