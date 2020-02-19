@@ -97,8 +97,8 @@ I wanted my site to have a minimilistic feel, using one background image on each
 Most of the Features within my Portfolio are using the Bootstrap Front-end Component Libary, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
  
 ### Existing Features
-- [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style, the Navbar will only be available on the very top of the landing page and other pages but it is not fixed as you will still be able to reach everywhere on my site without the use of this. 
-  On smaller viewports the navbar uses bootstraps collapse plugin. I made a `<noscript>` tag so i could add some styling to make the collapsed menu display on devices with Javascript disabled.
+- [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style. I made a `<noscript>` element so i could add some styling to make the collapsed menu display on devices with Javascript disabled. 
+  I have also used javascript to change the color once the user has scrolled passed the landing page, it will stay transparent until this point unless
 - [x] Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
 - [x] Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
 - [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.
@@ -120,7 +120,9 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 - [HTML5](https://www.w3.org/html/)
     - I use HTML to create the basic structure of my portfolio.
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-    - CSS gives my site its look and style 
+    - CSS gives my site its look and style.
+- [JavaScript](https://www.javascript.com/)
+    - JavaScript Improves the User Experience on my site.
 - [Bootstrap 4](https://getbootstrap.com/)
     - I have implimented the Bootstrap Front-end component libary to create a responsive mobile-first website, I have used multiple standard components and
     edited them to fit my needs. I have also utilised jQuery and Bootstraps own Javascript plugins on some of the components.
