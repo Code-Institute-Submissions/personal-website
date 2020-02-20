@@ -137,8 +137,9 @@ button:focus {
     padding: 100px 0 0 100px;
 }
 .headshot {
-  border-radius: 200px;
+  border-radius: 10px;
   margin: 40px;
+  box-shadow: 5px 5px 5px #999;
 }
 .btn-position {
   position: absolute;
@@ -577,7 +578,7 @@ label {
   }
   .title-position {
     padding: 10px;
-}
+  }
   .about-me {
     padding: 25px;
     border-radius: 0
@@ -590,8 +591,8 @@ label {
     border-radius: 0
   }
   .headshot {
-    height: 200px;
-    margin: 0;
+    height: 170px;
+    margin: 0 10px 10px;
   }
   .contact-form {
     width: 100%;

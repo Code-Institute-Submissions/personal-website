@@ -98,7 +98,7 @@ Most of the Features within my Portfolio are using the Bootstrap Front-end Compo
  
 ### Existing Features
 - [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style. I made a `<noscript>` element so i could add some styling to make the collapsed menu display on devices with Javascript disabled. 
-  I have also used javascript to change the color once the user has scrolled passed the landing page, it will stay transparent until this point unless
+  I have also used javascript to change the color of the navbar when scrolling, One the user has scrolled passed the landing page the navbar will change from transparent to white, if javascript is disabled it will be white perminantly.
 - [x] Modal - Once again i have used a standard bootstrap modal and used it as a contact form sidebar. (On smaller device it is full screen) It also has a fall back for people who have Javascript disabled.
 - [x] Contact Form - I have used the contact form inside the modal and also on a js fallback page, I want people using my page to contact me quickly and easily.
 - [x] Cards - I have used bootstraps cards to display each of my projects, I feel it gives them a little section of their own.
