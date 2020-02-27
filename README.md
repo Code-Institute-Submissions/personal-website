@@ -12,41 +12,30 @@ Click the image below to view my Live Portfolio.
 
 
 <a href="https://kushberrycream.github.io/personal-website/">
-         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.jpg?raw=true">
+         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
       </a>
 
 ## Contents
-<div>
-    <ul>
-        <li><a href="#tom-jones-personal-portfolio---first-milestone-project">1 Introduction</a></li>
-        <li><a href="#demo">2 Demo</a></li>
-        <li><a href="#ux">3 UX</a></li>
-            <ul>
-                <li><a href="#strategy">3.1 Strategy</a></li>
-                <li><a href="#scope">3.2 Scope</a></li>
-                <li><a href="#structure">3.3 Structure</a></li>
-                <li><a href="#skeleton">3.4 Skeleton</a></li>
-                <li><a href="#features">3.5 Features</a></li>
-            </ul>
-        </li>
-        <li><a href="#features">4 Features</a>
-            <ul>
-                <li><a href="#existing-features">4.1 Existing Features</a></li>
-                <li><a href="#features-left-to-implement">4.2 Features Left to Implement</a></li>
-            </ul>
-        </li>
-        <li><a href="#technologies-used">5 Technologies Used</a></li>
-        <li><a href="#Testing">6 Testing</a></li>
-        <li><a href="#deployment">7 Deployment</a></li>
-        <li><a href="#credits">8 Credits</a>
-            <ul>
-                <li><a href="#content">8.1 Content</a></li>
-                <li><a href="#media">8.2 Media</a></li>
-                <li><a href="#acknowledgements">8.3 Acknowledgments</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
+- [Introduction](#tom-jones-personal-portfolio---first-milestone-project)
+- [Demo](#demo)
+- [UX](#ux)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+    * [Surface](#surface)
+- [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used")
+- [Testing](#testing)
+- [Deployment](#deployment)
+    * [Deployment on GitHub Pages](#deployment-on-github-pages)
+    * [Cloning the Repository](#cloning-the-repository)
+- [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgments](#acknowledgements)
 
 ## UX  
 ### Strategy
@@ -167,12 +156,25 @@ You should also mention in this section any interesting bugs or problems you dis
 I have currently deployed my Portfolio on GitHub Pages using the master branch. It can be viewed on https://kushberrycream.github.io/personal-website/, this will eventually be accesible from my own domain. 
 The site will update on all new commits to the master branch. I use `git commit` to commit to the local repository and the use `git push` to send any changed to the master branch. 
 
-To deploy my site on GitHub Pages I firstly went to my setting in my Repository. I then scrolled down to "GitHub Pages" and using The Source Menu I then selected the master branch.
+### Deployment on GitHub Pages
+1. Firstly I went to my setting in my Repository.
 
-To run this repository locally click "Clone or Download" at the top of this repository and copy the url to your clipboard. Next open up Terminal and select the location in which you wish to clone this directory and
-then type `git clone` and the url `https://github.com/kushberrycream/personal-website.git`. Press enter and you will have succesfully cloned this Repository.
+2. I then scrolled down to "GitHub Pages" 
 
-As you may notice i have displayed my portfolio after my work history I felt the single page design was more user friendly as you dont need to divert from the main page.
+3. Using the source menu I then selected the master branch.
+
+### Cloning the Repository
+To run this repository locally:
+
+1. Click "Clone or Download" at the top of this repository 
+
+2. Copy the URL to your clipboard. 
+
+3. Open up Terminal and select the location in which you wish to clone this      directory 
+
+4. Then copy `git clone https://github.com/kushberrycream/personal-website.git` 
+
+5. Press enter and you will have succesfully cloned this Repository.
 
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
@@ -193,7 +195,7 @@ All the content has been written by myself, except the CV which was created usin
     - [The Muse](https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen)
     - [Free Code Camp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/)
     - [Mockplus](https://www.mockplus.com/blog/post/web-developer-portfolio)
-- I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). I downloaded the files and used the stylesheet provided, 
+- I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). As a CDN was not available i had to download the stylesheet named `circle.css` 
   I needed to add more color styles as I had a very small selection, Any code i have edited I have moved into my own CSS file `style.css` marked with a comment 
   to let people know where the original code came from.
 - The timeline was sourced from [Best jQuery](https://bestjquery.com/tutorial/timeline/demo50/)

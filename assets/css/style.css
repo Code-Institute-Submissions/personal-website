@@ -184,7 +184,7 @@ button:focus {
   padding: 0 100px 100px;
   background-color: #cec2b9;
   border-radius: 25px;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 
@@ -200,8 +200,11 @@ button:focus {
   padding-bottom: 40px;
   margin-top: 40px;
 }
+#skills {
+    padding: 50px 0 0 0;
+}
 
-.skills-p {
+.skills p {
   padding-bottom: 65px;
 }
 
@@ -220,6 +223,10 @@ button:focus {
 .history {
   background-color: #C2B7A7;
   padding: 0 0 100px;
+}
+
+#history {
+  padding-top: 70px;
 }
 
 
@@ -334,9 +341,8 @@ button:focus {
 }
 
 /* ------------------------------------------------------------------ PORTFOLIO */
-
-.portfolio-bg {
-  margin-top: 40px;
+#portfolio {
+  padding-top: 75px;
 }
 
 .card {
