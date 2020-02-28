@@ -2,18 +2,15 @@
 **Stream One Project: User-Centric Frontend Development - Code Institute**
 
 ## Introduction
-<div class="intro-container">
-<p>This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
-Currently this page only shows a couple lessons I have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.</p>
-</div>
+This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
+Currently this page only shows a couple lessons I have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.
 
 ## Demo
 Click the image below to view my Live Portfolio.
 
-
 <a href="https://kushberrycream.github.io/personal-website/">
-         <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
-      </a>
+  <img alt="am i responsive" src="https://github.com/kushberrycream/personal-website/blob/master/assets/images/amiresponsive.png?raw=true">
+</a>
 
 ## Contents
 - [Introduction](#tom-jones-personal-portfolio---first-milestone-project)
@@ -46,7 +43,7 @@ The main goal of my portfolio is to give all the essential information in a ledg
 | ------ | ------ |
 | Employers | As an Employer I want to be able to access recent projects and also to be able to see a CV to get a more in depth view. |
 | Recruiters | As a Recruiter I want to be able to download a CV to be able to share with prospective Employers, but i would also like to see what work has been undertaken before so that I can asses who to send CV's to. |
-| Collaborators | As a Collaborator I wanavbarnt to see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
+| Collaborators | As a Collaborator I want to be able see recent and noteworthy Projects that I can easily view code to see if we would be a good match to collaborate. |
 
 I wanted to give all users a quick overview of myself, my skills and experiences.
 
@@ -83,7 +80,7 @@ I wanted my site to have a minimilistic feel, using one background image on each
 
 ## Features
 
-Most of the Features within my Portfolio are using the Bootstrap Front-end Component Libary, I have used a few components which use jQuery, Popper.js and bootstraps own plugins.
+Most of the Features within my Portfolio are using the Bootstrap Front-end Component Libary, I have used a few components which use jQuery and bootstraps own plugins.
  
 ### Existing Features
 - [x] Navbar - I have used one of bootstraps standard Navbars and then edited the code to fit my pages style. I made a `<noscript>` element so i could add some styling to make the collapsed menu display on devices with Javascript disabled. 
@@ -127,26 +124,30 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have tested my portfolio using Chromes developer tools, I have tested over all the available viewport sizes and mobile devices including the landscape orientation and all display correctly and respond as expected. I have also tested my live portfolio on Chrome, Firefox, Opera and Edge on top of this I have also tested on my own iPhone and a Samsung device I had access to make sure the portfolio does what the developer tools is saying it is doing. All links work as expected allowing the user to navigate easily, the navbar link for my cv and the sidebar link opens the cv in a new window but the link at the bottom downloads directly to the users device. The contact form works and sends the form via formspree and will not send unless the fields are entered correctly. To make sure the page works without JavaScript I turned it off and tested the page again.   
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+1. CV
+    1. I clicked the Navbar CV link.
+    2. A CV opens in a new window successfully.
+    3. I Repeated on the Sidebar link and with the same outcome as above.
+    4. Next I clicked the footer CV link and this successfully downloaded the CV to my Documents.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-My Website is responsive on all screen sizes and browsers the only issue I could find was Mozilla not displaying `backdrop-filter`. I don't believe this 
-is an issue as the blur is only in place for mobile devices that need to use the collapsible Navbar.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+2. Contact form:
+    1. I went to the "Say Hi" link to open the Contact form.
+    2. I tried to submit the empty form and error message about the required fields appears. 
+    3. I tried to submit the form with an diffrent invalid email addresses and the relevant error message appears.
+    4. I then submitted the form with all inputs valid and it then took me to the Formspree form submission page with a reCaptcha validator.
+    5. Once the reCaptcha is passed I selected the back to original webpage link to go back to my portfolio.
+    6. I then repeated the process on each Contact form link. 
 
 ### Bugs
 - When closing the modal i noticed it was actually taking up the whole viewport which meant the animation when fading out was not displaying in the correct position. 
   This happened because the modal was set to 100% the width of the viewport and the modal dialog was set to 60%. I corrected this by swapping the widths around and altering the positioning.
+- Also the Modal removes the scrollbar which moves the page slightly I am unable to stop this due to the modal hiding the the scrollbar.
 - On real iOS devices I noticed a bug with the background, The background will display across the whole contents instead of the viewport this is obviously not desired as the background display incorrectly. 
   At this moment I have not come up with a fix.
+- My Website is responsive on all screen sizes and browsers the only issue I could find was Mozilla not displaying `backdrop-filter`. I don't believe this 
+is an issue as the blur is only in place for mobile devices that need to use the collapsible Navbar. 
 
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
