@@ -188,7 +188,6 @@ All the content has been written by myself, except the CV which was created usin
 
 ### Media
 - The main background came from [Unsplash](https://unsplash.com/photos/b18TRXc8UPQ)
-- Image of Tom Jones found on [Pintrest](https://www.pinterest.com/pin/402368547935136970/)
 
 ### Acknowledgements
 
