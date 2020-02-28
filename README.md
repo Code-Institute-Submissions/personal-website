@@ -124,6 +124,14 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 
 ## Testing
 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
 I have tested my portfolio using Chromes developer tools, I have tested over all the available viewport sizes and mobile devices including the landscape orientation and all display correctly and respond as expected. I have also tested my live portfolio on Chrome, Firefox, Opera and Edge on top of this I have also tested on my own iPhone and a Samsung device I had access to make sure the portfolio does what the developer tools is saying it is doing. All links work as expected allowing the user to navigate easily, the navbar link for my cv and the sidebar link opens the cv in a new window but the link at the bottom downloads directly to the users device. The contact form works and sends the form via formspree and will not send unless the fields are entered correctly. To make sure the page works without JavaScript I turned it off and tested the page again.   
 
 1. CV
