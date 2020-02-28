@@ -124,15 +124,7 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 
 ## Testing
 
-<p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-
-I have tested my portfolio using Chromes developer tools, I have tested over all the available viewport sizes and mobile devices including the landscape orientation and all display correctly and respond as expected. I have also tested my live portfolio on Chrome, Firefox, Opera and Edge on top of this I have also tested on my own iPhone and a Samsung device I had access to make sure the portfolio does what the developer tools is saying it is doing. All links work as expected allowing the user to navigate easily, the navbar link for my cv and the sidebar link opens the cv in a new window but the link at the bottom downloads directly to the users device. The contact form works and sends the form via formspree and will not send unless the fields are entered correctly. To make sure the page works without JavaScript I turned it off and tested the page again.   
+I have tested my portfolio using Chromes developer tools, I have tested over all the available viewport sizes and mobile devices including the landscape orientation and all display correctly and respond as expected. I have also tested my live portfolio on Chrome, Firefox, Opera and Edge on top of this I have also tested on my own iPhone and a Samsung device I had access to make sure the portfolio does what the developer tools is saying it is doing. All links work as expected allowing the user to navigate easily, the navbar link for my cv and the sidebar link opens the cv in a new window but the link at the bottom downloads directly to the users device. The contact form works and sends the form via formspree and will not send unless the fields are entered correctly. To make sure the page works without JavaScript I turned it off and tested the page again. I have also put my code through the w3 HTML and CSSS validators and everything is correct except `backdrop-filter` as the validator is saying the property does not exist, as you can see [here](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) many of the browser do support this feature.
 
 1. CV
     1. I clicked the Navbar CV link.
@@ -154,8 +146,7 @@ I have tested my portfolio using Chromes developer tools, I have tested over all
 - Also the Modal removes the scrollbar which moves the page slightly I am unable to stop this due to the modal hiding the the scrollbar.
 - On real iOS devices I noticed a bug with the background, The background will display across the whole contents instead of the viewport this is obviously not desired as the background display incorrectly. 
   At this moment I have not come up with a fix.
-- My Website is responsive on all screen sizes and browsers the only issue I could find was Mozilla not displaying `backdrop-filter`. I don't believe this 
-is an issue as the blur is only in place for mobile devices that need to use the collapsible Navbar. 
+- My Website is responsive on all screen sizes and browsers the only issue I could find was Mozilla not displaying `backdrop-filter`. I was able to enable the feature within Mozilla but the user will obviously not know to do this. I have tried to blur in another way but I did not like the outcome compared to `backdrop-filter`.
 
 <p align="right">
   <a href="tom-jones-personal-portfolio---first-milestone-project">Back to Top :arrow_heading_up:</a> 
