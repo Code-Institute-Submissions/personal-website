@@ -79,7 +79,6 @@ h3 {
 
 .navbar-default {
   transition: 500ms ease;
-  background: transparent;
   box-shadow: 0 1px 3px rgba(0, 0, 0, .33);
 }
 
@@ -133,20 +132,16 @@ button:focus {
 /* ----------------------------------------------------------------- LANDING */
 
 .landing-body {
-  flex-grow: 1;
-  flex-shrink: 0;
   height: 100vh;
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
 
-.content-flex {
+.landing-content {
   background: rgba(238, 235, 232, .7);
   border-top: 2px solid #3e3f3a;
   border-bottom: 2px solid #3e3f3a;
-  justify-content: center;
-  display: flex;
 }
 
 .title-position {
@@ -200,13 +195,12 @@ button:focus {
 .skills {
   background-color: rgba(238, 235, 232, .7);
   border-radius: 25px;
-  padding-bottom: 40px;
   margin-top: 40px;
   width: 100%;
 }
 
 #skills {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .skills p {
@@ -220,7 +214,7 @@ button:focus {
 
 .circle-spacing {
   margin: 10px;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 /*--------------------------------------------------------------- HISTORY */
@@ -462,13 +456,7 @@ footer h6 a i {
   background-color: #eeebe8;
 }
 
-#staticBackdrop {
-  overflow: hidden;
-}
-
 .fade {
-  transform: scale(0);
-  opacity: 0;
   -webkit-transition: .50s ease-in;
   -o-transition: .50s ease-in;
   transition: .50s ease-in;
