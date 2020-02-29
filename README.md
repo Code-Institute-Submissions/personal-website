@@ -3,7 +3,7 @@
 
 ## Introduction
 This is my Portfolio. I plan to use this site as a platform to showcase me and my current projects but also give an overview of my current skillset and experience, I will present this website to prospective Employers, Recruiters and Collaborators. 
-Currently this page only shows a couple lessons I have undertaken so far and some sample repositories which i plan to replace with my own projects. I plan to replace the majority of the content as i begin to progess through the course.
+Currently this page only shows a couple lessons I have undertaken so far and some sample repositories which i plan to replace with my own projects. I will also change any of the information about me as it changes, such as what i have learnt and my skillsets.
 
 ## Demo
 Click the image below to view my Live Portfolio.
@@ -126,7 +126,7 @@ Here is a list of the Technologies i have used throughout my Portfolio.
 
 I have tested my portfolio using Chromes developer tools, I have tested over all the available viewport sizes and mobile devices including the landscape orientation and all display correctly and respond as expected. I have also tested my live portfolio on Chrome, Firefox, Opera and Edge on top of this I have also tested on my own iPhone and a Samsung device I had access to make sure the portfolio does what the developer tools is saying it is doing. All links work as expected allowing the user to navigate easily, the navbar link for my cv and the sidebar link opens the cv in a new window but the link at the bottom downloads directly to the users device. The contact form works and sends the form via formspree and will not send unless the fields are entered correctly. To make sure the page works without JavaScript I turned it off and tested the page again. I have also put my code through the w3 HTML and CSSS validators and everything is correct except `backdrop-filter` as the validator is saying the property does not exist, as you can see [here](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) many of the browser do support this feature.
 
-1. CV
+1. CV links
     1. I clicked the Navbar CV link.
     2. A CV opens in a new window successfully.
     3. I Repeated on the Sidebar link and with the same outcome as above.
@@ -197,7 +197,7 @@ All the content has been written by myself, except the CV which was created usin
 - I have used Andre Firchow's CSS percentage circles [here](http://circle.firchow.net/). As a CDN was not available i had to download the stylesheet named `circle.css` 
   I needed to add more color styles as I had a very small selection, Any code i have edited I have moved into my own CSS file `style.css` marked with a comment 
   to let people know where the original code came from.
-- The timeline was sourced from [Best jQuery](https://bestjquery.com/tutorial/timeline/demo50/)
+- The timeline was sourced from [Best jQuery](https://bestjquery.com/tutorial/timeline/demo50/). The code was then edited as desired and made to look and fit with my portfolios design.
 - Colour palette chosen with the help of [Canva](https://www.canva.com/colors/color-palette-generator/)
 - For the scrollbar styling I used this tutorial from [W3schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
